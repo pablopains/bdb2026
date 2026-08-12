@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Banco de Dados Biológicos — DIP BIG863</title>
+<style>
+    :root {
+      --azul: #155b70;
+      --azul-escuro: #103f50;
+      --azul-claro: #e8f3f6;
+      --verde: #28785f;
+      --ocre: #a66a12;
+      --tinta: #182b34;
+      --muted: #52666f;
+      --linha: #c9d9df;
+      --fundo: #f5f8f9;
+      --branco: #ffffff;
+      --sombra: 0 8px 24px rgba(16, 63, 80, .09);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--tinta);
+      background: var(--fundo);
+      font: 17px/1.58 "Segoe UI", Arial, sans-serif;
+    }
+    a { color: var(--azul); text-underline-offset: .18em; }
+    a:hover { color: var(--azul-escuro); }
+    .topo {
+      color: var(--branco);
+      background:
+        linear-gradient(120deg, rgba(16,63,80,.98), rgba(21,91,112,.93)),
+        radial-gradient(circle at top right, #52a38d, transparent 55%);
+      padding: 28px max(24px, calc((100% - 1180px)/2)) 56px;
+    }
+    .instituicao {
+      margin: 0 0 34px;
+      font-size: .86rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .topo h1 {
+      max-width: 1000px;
+      margin: 0;
+      font: 700 clamp(2rem, 5vw, 4rem)/1.08 Georgia, serif;
+    }
+    .subtitulo {
+      max-width: 900px;
+      margin: 20px 0 0;
+      font-size: 1.12rem;
+      color: #e3f1f4;
+    }
+    .metadados {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 26px;
+    }
+    .metadados span {
+      padding: 7px 12px;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 999px;
+      background: rgba(255,255,255,.09);
+      font-size: .92rem;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      overflow-x: auto;
+      background: var(--branco);
+      border-bottom: 1px solid var(--linha);
+      box-shadow: 0 3px 14px rgba(16,63,80,.07);
+    }
+    nav div {
+      display: flex;
+      gap: 4px;
+      width: max-content;
+      max-width: 1180px;
+      margin: auto;
+      padding: 8px 20px;
+    }
+    nav a {
+      padding: 9px 12px;
+      border-radius: 7px;
+      font-weight: 650;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    nav a:hover { background: var(--azul-claro); }
+    main {
+      max-width: 1180px;
+      margin: auto;
+      padding: 38px 24px 70px;
+    }
+    section { scroll-margin-top: 76px; margin-bottom: 54px; }
+    h2 {
+      margin: 0 0 20px;
+      padding-bottom: 9px;
+      color: var(--azul-escuro);
+      border-bottom: 3px solid var(--azul);
+      font: 700 1.75rem/1.2 Georgia, serif;
+    }
+    h3 { margin: 0 0 10px; color: var(--azul-escuro); }
+    p { margin: .5em 0 1em; }
+    .destaque {
+      padding: 20px 22px;
+      border-left: 5px solid var(--azul);
+      background: var(--azul-claro);
+    }
+    .contato {
+      display: grid;
+      grid-template-columns: minmax(220px, .8fr) minmax(320px, 1.2fr);
+      gap: 0;
+      overflow: hidden;
+      border: 1px solid var(--linha);
+      border-radius: 12px;
+      background: var(--branco);
+      box-shadow: var(--sombra);
+    }
+    .contato-identidade {
+      padding: 24px;
+      color: var(--branco);
+      background: var(--azul-escuro);
+    }
+    .contato-identidade h3 { color: var(--branco); font-size: 1.35rem; }
+    .contato-identidade p { margin-bottom: 0; color: #dcebef; }
+    .contato-links { padding: 22px 24px; }
+    .contato-links dl { display: grid; grid-template-columns: 145px 1fr; gap: 12px 16px; margin: 0; }
+    .contato-links dt { font-weight: 800; }
+    .contato-links dd { min-width: 0; margin: 0; overflow-wrap: anywhere; }
+    .grade {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      gap: 18px;
+    }
+    .cartao {
+      padding: 20px;
+      border: 1px solid var(--linha);
+      border-radius: 12px;
+      background: var(--branco);
+      box-shadow: var(--sombra);
+    }
+    .cartao p:last-child { margin-bottom: 0; }
+    .aula-numero {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--verde);
+      font-size: .8rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .botao {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 14px;
+      border-radius: 8px;
+      color: var(--branco);
+      background: var(--azul);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .botao:hover { color: var(--branco); background: var(--azul-escuro); }
+    .tabela-wrap { overflow-x: auto; border: 1px solid var(--linha); border-radius: 10px; }
+    table { width: 100%; border-collapse: collapse; background: var(--branco); }
+    th, td { padding: 13px 14px; border-bottom: 1px solid var(--linha); text-align: left; vertical-align: top; }
+    th { color: var(--branco); background: var(--azul); }
+    tr:last-child td { border-bottom: 0; }
+    .pontos { text-align: center; font-weight: 800; white-space: nowrap; }
+    .total td { color: var(--branco); background: var(--azul-escuro); font-weight: 800; }
+    .documentos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 18px;
+    }
+    .lista-arquivos { margin: 12px 0 0; padding-left: 1.15rem; }
+    .lista-arquivos li { margin: .7em 0; }
+    .tipo {
+      display: inline-block;
+      margin-left: 5px;
+      padding: 2px 7px;
+      border-radius: 999px;
+      color: var(--muted);
+      background: #edf1f3;
+      font-size: .74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .docente { color: #704607; background: #fff0d9; }
+    .aviso {
+      padding: 15px 18px;
+      border-left: 4px solid var(--ocre);
+      background: #fff8ea;
+    }
+    footer {
+      padding: 26px 24px;
+      color: #dcebef;
+      background: var(--azul-escuro);
+      text-align: center;
+      font-size: .9rem;
+    }
+    @media (max-width: 650px) {
+      body { font-size: 16px; }
+      .topo { padding-top: 22px; }
+      main { padding-inline: 16px; }
+      th, td { padding: 10px; }
+      .contato { grid-template-columns: 1fr; }
+      .contato-links dl { grid-template-columns: 1fr; gap: 3px; }
+      .contato-links dd { margin-bottom: 10px; }
+    }
+    @media print {
+      nav, .botao { display: none; }
+      body { background: white; font-size: 11pt; }
+      .topo { padding: 20px; color: black; background: white; border-bottom: 2px solid var(--azul); }
+      .subtitulo { color: black; }
+      .metadados span { border-color: #777; background: white; }
+      main { max-width: none; padding: 20px; }
+      .cartao { break-inside: avoid; box-shadow: none; }
+      section { margin-bottom: 28px; }
+    }
+  </style>
+</head>
+<body>
+<header class="topo">
+<p class="instituicao">UFMG • Instituto de Ciências Biológicas • PPG-ECMVS</p>
+<h1>Tópicos Especiais em Ecologia, Conservação e Manejo da Vida Silvestre II: Banco de Dados Biológicos</h1>
+<p class="subtitulo">Página inicial dos materiais, atividades e exploradores da disciplina.</p>
+<div aria-label="Informações da disciplina" class="metadados">
+<span>DIP BIG863</span>
+<span>2 créditos</span>
+<span>30 horas</span>
+<span>11–14 de agosto de 2026</span>
+<span>Curso intensivo</span>
+<span>Pacote v92 • revisão consolidada</span>
+</div>
+</header>
+<nav aria-label="Navegação principal">
+<div>
+<a href="#inicio">Início</a>
+<a href="#professor">Professor</a>
+<a href="#ementa">Ementa</a>
+<a href="#programacao">Programação</a>
+<a href="#avaliacao">Avaliação</a>
+<a href="#exploradores">Exploradores</a>
+<a href="#guias">Aulas e atividades</a>
+</div>
+</nav>
+<main id="inicio">
+<section aria-labelledby="como-usar">
+<h2 id="como-usar">Como usar este pacote</h2>
+<div class="destaque">
+<p><strong>Comece por esta página.</strong> Os links abaixo abrem arquivos que estão dentro do próprio pacote. Para que todos funcionem, descompacte o ZIP inteiro em uma pasta curta, por exemplo <code>C:\Banco_Dados_Biologicos</code>, e mantenha a estrutura de subpastas.</p>
+<p>Os exploradores funcionam localmente no navegador. Os arquivos DOCX e XLSX são abertos nos programas associados do computador.</p>
+</div>
+</section>
+<section aria-labelledby="titulo-professor" id="professor">
+<h2 id="titulo-professor">Professor e contato</h2>
+<div class="contato">
+<div class="contato-identidade">
+<h3>Pablo Hendrigo Alves de Melo</h3>
+<p>Professor responsável pela disciplina</p>
+</div>
+<div class="contato-links">
+<dl>
+<dt>Envio de trabalhos</dt>
+<dd><a href="mailto:pablopains@yahoo.com.br">pablopains@yahoo.com.br</a></dd>
+<dt>ORCID</dt>
+<dd><a href="https://orcid.org/0000-0003-3004-2984">https://orcid.org/0000-0003-3004-2984</a></dd>
+<dt>Currículo Lattes</dt>
+<dd><a href="https://lattes.cnpq.br/9164034883998857">https://lattes.cnpq.br/9164034883998857</a></dd>
+</dl>
+</div>
+</div>
+</section>
+<section aria-labelledby="titulo-ementa" id="ementa">
+<h2 id="titulo-ementa">Ementa</h2>
+<p>Uso de ferramentas e metodologias para a organização e persistência de dados biológicos em ecologia, conservação e manejo de vida silvestre, abrangendo: introdução aos dados de biodiversidade; estruturação em formatos tabulares (“tabela chapada”); fundamentos de bancos de dados relacionais aplicados à biodiversidade; principais repositórios nacionais e internacionais; introdução aprofundada ao padrão internacional Darwin Core e suas extensões; curadoria digital baseada nos princípios FAIR; e persistência de dados voltada para a pesquisa científica.</p>
+<p><a class="botao" href="00_Disciplina/Ementa.docx">Abrir a ementa vigente</a></p>
+</section>
+<section aria-labelledby="titulo-programacao" id="programacao">
+<h2 id="titulo-programacao">Programação resumida</h2>
+<div class="grade">
+<article class="cartao">
+<span class="aula-numero">Aula 1 • Dia 1</span>
+<h3>Fontes de dados de biodiversidade</h3>
+<p>Portais e IPTs, buscas e downloads comparáveis, tipos de fonte, princípios FAIR, licenças e leitura crítica de arquivos reais.</p>
+<p><strong>Entrega:</strong> Atividade Aula 1 — DOCX preenchido + link para ZIP contendo somente os downloads.</p>
+</article>
+<article class="cartao">
+<span class="aula-numero">Aula 2 • Dia 2</span>
+<h3>Dados tabulares e relacionais</h3>
+<p>Tabelas chapadas, princípios de dados tidy, sistema relacional da biblioteca, chaves primárias e estrangeiras, JOIN e rastreamento de relações em um DwC-A real.</p>
+<p><strong>Entrega:</strong> Atividade Aula 2 — revisão objetiva dos conceitos da aula em 5 questões.</p>
+</article>
+<article class="cartao">
+<span class="aula-numero">Aula 3_4 • 12 horas</span>
+<h3>Linguagem e modelos Darwin Core</h3>
+<p>Namespaces, classes, propriedades, valores, IRIs, DwC Simple, DwC-A, DwC-DP, cores, extensões e achatamento de classes.</p>
+<p><strong>Entrega:</strong> Atividade Aula 3_4 — investigação de um Darwin Core Archive público, com apoio do Explorador da Atividade Aula 3_4 e entrega em DOCX.</p>
+</article>
+<article class="cartao">
+<span class="aula-numero">Avaliação final</span>
+<h3>AF1 — avaliação final</h3>
+<p>As questões 1 a 7 retomam as aulas indicadas. A questão 8 utiliza um explorador específico para consultar um dos conjuntos avaliativos.</p>
+<p><strong>Entrega:</strong> preencha <code>AF1_Resposta_do_estudante.docx</code>, renomeie como <code>AF1_Sobrenome_Nome.docx</code> e envie-o como anexo.</p>
+</article>
+</div>
+<p><a class="botao" href="00_Disciplina/Roteiro_integrado_da_disciplina.docx">Abrir o roteiro completo</a></p>
+</section>
+<section aria-labelledby="titulo-avaliacao" id="avaliacao">
+<h2 id="titulo-avaliacao">Distribuição de pontos</h2>
+<p>As atividades podem ser discutidas e desenvolvidas em grupo, mas <strong>todas as entregas são individuais</strong>. Cada estudante deve enviar seu próprio arquivo e responder pelo conteúdo apresentado.</p>
+<div class="tabela-wrap">
+<table>
+<thead><tr><th>Componente</th><th>Produto</th><th class="pontos">Pontos</th></tr></thead>
+<tbody>
+<tr><td>Participação</td><td>Presença ativa, colaboração, perguntas e registros</td><td class="pontos">10</td></tr>
+<tr><td>Atividade Aula 1</td><td>DOCX com filtros/DOIs + ZIP contendo somente os downloads</td><td class="pontos">15</td></tr>
+<tr><td>Atividade Aula 2</td><td>Revisão dos conceitos da Aula 2 em 5 questões</td><td class="pontos">15</td></tr>
+<tr><td>Atividade Aula 3_4</td><td>Investigação de um Darwin Core Archive público com entrega individual em DOCX</td><td class="pontos">15</td></tr>
+<tr><td>AF1</td><td>Avaliação final integrada e individual</td><td class="pontos">45</td></tr>
+<tr class="total"><td colspan="2">Total da disciplina</td><td class="pontos">100</td></tr>
+</tbody>
+</table>
+</div>
+<p><a class="botao" href="00_Disciplina/Politica_de_atividades_e_avaliacao.docx">Abrir a política de avaliação</a></p>
+</section>
+<section aria-labelledby="titulo-exploradores" id="exploradores">
+<h2 id="titulo-exploradores">Exploradores interativos</h2>
+<p class="destaque"><strong>Como usar:</strong> cada prática apresenta uma explicação breve antes da ação e marcadores explícitos de início, resultado esperado e fim. O roteiro essencial organiza a navegação, mas não reduz os dados: todas as linhas, colunas, exibições brutas e dicionários continuam disponíveis.</p>
+<div class="grade">
+<article class="cartao">
+<span class="aula-numero">Explorador 1</span>
+<h3>Portais, arquivos, FAIR e licenças</h3>
+<p>Apresenta as colunas e os valores dos exemplos da Aula 1, compara portais e IPTs e apoia a leitura crítica de FAIR, licenças e listas taxonômicas.</p>
+<a class="botao" href="01_Aula_1/explorador/Explorador_Aula1.html">Abrir Explorador da Aula 1</a>
+</article>
+<article class="cartao">
+<span class="aula-numero">Explorador 2</span>
+<h3>Tabelas e relacionamentos</h3>
+<p>Demonstra tabelas chapadas, tidy e relacionais, preservando PK verde e FK amarela; inclui filtros, JOIN e rastreamento das chaves declaradas no <code>meta.xml</code> de um DwC-A.</p>
+<a class="botao" href="02_Aula_2/explorador/Explorador_Aula2.html">Abrir Explorador da Aula 2</a>
+</article>
+<article class="cartao">
+<span class="aula-numero">Explorador da Atividade Aula 3_4</span>
+<h3>Investigação de um DwC-A público</h3>
+<p>Reúne três Archives públicos incorporados e organiza as seis questões da Atividade Aula 3_4 em um percurso de enunciado, evidências e dicas de interpretação. A resposta esperada fica recolhida ao final de cada questão para conferência, sustentada pelo eml.xml, pelo meta.xml ou pelos arquivos tabulares reais.</p>
+<a class="botao" href="03_Aula_3_4/explorador/Explorador_Atividade_Aula_3_4.html">Abrir Explorador da Atividade Aula 3_4</a>
+</article>
+<article class="cartao">
+<span class="aula-numero">Explorador da Questão 8</span>
+<h3>Interpretação de um Darwin Core Archive real</h3>
+<p>É dedicado à Questão 8 e organiza a consulta em enunciado, evidências de título, versão e licença, leitura do <code>meta.xml</code>, observação do arquivo Core e conferência final da resposta esperada.</p>
+<a class="botao" href="05_avaliacao/Explorador_Questao_8.html">Abrir Explorador da Questão 8</a>
+</article>
+</div>
+</section>
+<section aria-labelledby="titulo-guias" id="guias">
+<h2 id="titulo-guias">Aulas e atividades</h2>
+<p class="destaque"><strong>Regra comum:</strong> as atividades podem ser discutidas em grupo, mas a entrega é individual. Os DOCX de atividade e a avaliação final usam o cabeçalho padronizado com nome completo, matrícula UFMG, e-mail e data. <a href="00_Disciplina/Politica_de_atividades_e_avaliacao.docx">Abrir política completa</a>.</p>
+<div class="documentos">
+<article class="cartao"><h3>Aula 1 — fontes, FAIR e licenças</h3><p><a href="01_Aula_1/Aula_1_Material_do_estudante.docx">Abrir material</a> · <a href="01_Aula_1/projecao/Aula_1_Projecao.pdf">PDF de projeção</a> · <a href="01_Aula_1/explorador/Explorador_Aula1.html">Abrir explorador</a></p><p><strong>Atividade Aula 1 (15 pts):</strong> baixe speciesLink, JABOT, Reflora e, no GBIF Backbone, Simple, DwC-A e Species list. Preencha no DOCX o filtro utilizado em cada base e o DOI de cada um dos três produtos do GBIF. Envie <code>Atividade Aula 1 - Nome Sobrenome.docx</code> como anexo e informe no corpo do e-mail o link compartilhado para <code>Atividade Aula 1 - Nome Sobrenome.zip</code>, que deve conter somente os downloads.</p><p><a class="botao" href="01_Aula_1/atividade/Atividade_Aula_1_Instrucoes.docx">Baixar Atividade Aula 1</a></p></article>
+<article class="cartao"><h3>Aula 2 — tabelas e chaves</h3><p><a href="02_Aula_2/Aula_2_Material_do_estudante.docx">Abrir material</a> · <a href="02_Aula_2/projecao/Aula_2_Projecao.pdf">PDF de projeção</a> · <a href="02_Aula_2/explorador/Explorador_Aula2.html">Abrir explorador</a></p><p><strong>Atividade Aula 2 (15 pts):</strong> revisão direta dos conceitos da aula em 5 questões de 3 pontos: vocabulário, PK/FK, cardinalidades, integridade referencial e JOIN/achatamento/tidy. Não exige consulta ao Explorador. Renomeie como <code>Atividade Aula 2 - Nome Sobrenome.docx</code> e envie como anexo para <a href="mailto:pablopains@yahoo.com.br">pablopains@yahoo.com.br</a>.</p><p><a class="botao" href="02_Aula_2/atividade/Atividade_Aula_2.docx">Baixar Atividade Aula 2</a></p></article>
+<article class="cartao"><h3>Aula 3_4 — linguagem e modelos Darwin Core</h3><p><a href="03_Aula_3_4/Aula_3_4_Material_do_estudante.docx">Abrir material</a> · <a href="03_Aula_3_4/projecao/Aula_3_4_Projecao.pdf">PDF de projeção</a></p><p><strong>Atividade Aula 3_4 (15 pts):</strong> escolha um dos três Darwin Core Archives públicos incorporados ao Explorador da Atividade Aula 3_4 e responda às seis questões no DOCX. Use o mesmo conjunto em toda a atividade. Renomeie como <code>Atividade Aula 3_4 - Nome Sobrenome.docx</code> e envie como anexo para <a href="mailto:pablopains@yahoo.com.br">pablopains@yahoo.com.br</a>.</p><p><a class="botao" href="03_Aula_3_4/atividade/Atividade_Aula_3_4_Resposta_do_estudante.docx">Baixar DOCX da Atividade Aula 3_4</a> · <a href="03_Aula_3_4/explorador/Explorador_Atividade_Aula_3_4.html">Abrir Explorador da Atividade Aula 3_4</a></p></article>
+
+<article class="cartao"><h3>AF1 — avaliação final</h3><p><strong>AF1 (45 pts):</strong> responda às questões 1 a 7 com apoio das aulas indicadas. Na questão 8, consulte somente o conjunto atribuído e identifique título, versão, licença, Core, <code>rowType</code>, classe e unidade representada por uma linha.</p><p><a href="05_avaliacao/Explorador_Questao_8.html">Abrir Explorador da Questão 8</a> · <a href="05_avaliacao/AF1_Resposta_do_estudante.docx">Baixar formulário AF1</a></p></article>
+<article class="cartao"><h3>Consulta e materiais docentes</h3><p><a href="00_Disciplina/Ementa.docx">Ementa vigente</a> · <a href="00_Disciplina/Roteiro_integrado_da_disciplina.docx">Roteiro</a> · <a href="00_Disciplina/referencias/Referencias_da_disciplina.html">Referências</a></p><p class="aviso">Gabaritos e planilha de correção permanecem nas subpastas <code>gabarito</code> e em <code>05_avaliacao</code>; são exclusivos do professor.</p></article>
+</div>
+</section>
+</main>
+<footer>
+    DIP BIG863 • Banco de Dados Biológicos • UFMG • 2026
+  </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "auditedOn": "2026-07-25",
+  "commonFilters": {
+    "OCCURRENCE_STATUS": [
+      "present"
+    ],
+    "TAXON_KEY": [
+      "P"
+    ],
+    "predicateTaxonChecklistKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+    "GADM_GID": [
+      "BRA.13.546_2",
+      "BRA.13.46_2",
+      "BRA.13.344_2"
+    ],
+    "BASIS_OF_RECORD": [
+      "PRESERVED_SPECIMEN"
+    ],
+    "format": "SPECIES_LIST"
+  },
+  "downloads": [
+    {
+      "label": "GBIF Backbone solicitado",
+      "key": "0008869-260721160103020",
+      "doi": "10.15468/dl.bu5m5b",
+      "requestChecklistKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "rows": 700,
+      "occurrenceSum": 1423
+    },
+    {
+      "label": "COL XR solicitado",
+      "key": "0008956-260721160103020",
+      "doi": "10.15468/dl.5yjx2e",
+      "requestChecklistKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+      "rows": 700,
+      "occurrenceSum": 1423
+    }
+  ],
+  "comparison": {
+    "pairedTaxonKeys": 700,
+    "differentFieldsAcross22Columns": 0,
+    "sameRowsIgnoringOrder": true,
+    "sameOriginalOrder": false,
+    "scientificNameDifferentFromAcceptedWithinEachList": 95
+  }
+}

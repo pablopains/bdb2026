@@ -1,0 +1,72 @@
+BANCO DE DADOS BIOLÓGICOS 2026 — v140
+- v140: harmonização narrativa da abertura da Aula 2 e da Prática 2.1. Propósito, pergunta central, resposta-síntese, trilha, objetivos e percurso foram alinhados ao fluxo real da aula; a prática com GBIF Simple e o segundo exemplo com lista taxonômica passaram a usar os mesmos campos-resumo da apostila, cores por bloco conceitual e negrito para valores repetidos. A seção 2.2 foi harmonizada para distinguir repetição, unidade observacional e organização tidy sem antecipar entidade relacional. O Explorador da Aula 2 foi sincronizado com essas mudanças. O README.md foi incorporado à raiz do pacote e a tabela “Organização do curso” passou a listar apenas Aula 1, Aula 2 e Aula 3_4. O Roteiro integrado recebeu apenas a nova questão central da Aula 2; o restante das aulas e atividades foi preservado.
+- v139: correção de paginação residual da Aula 3_4 e reforço de leitura do meta.xml na Aula 2. Na Aula 3_4, foram removidas quebras de página indevidas aplicadas a 20 itens de listas numeradas em 2.10.1, 3.9.3 e 3.10.2; também foram eliminados dois parágrafos vazios responsáveis por uma página em branco e por uma página exclusiva de navegação entre C1.2/C1.3 e C2. Na Aula 2, a seção 10.1 recebeu três interpretações curtas, uma abaixo de cada trecho de meta.xml, distinguindo rowType, <id>, <coreid> e <field> conforme o Darwin Core Text Guide. Conteúdo restante, atividades, exploradores e dependências foram preservados.
+- v138: padronização editorial de produção das Aulas 2 e 3_4. Na Aula 2, Propósito, Objetivos e Percurso passam a abrir blocos de página; o encerramento foi reorganizado em prática 2.2 → síntese e retomada → fechamento visual → Atividade Aula 2 → preparação para Aula 3_4, incorporando a antiga síntese explícita ao bloco de síntese. Na Aula 3_4, “Estrutura da Aula 3_4” passa a “Propósito”; o encerramento da Camada 1 foi reorganizado em 3.11 Síntese e retomada → 3.12 fechamento visual → 4 Atividade Aula 3_4 → Camada 2. A regra de tópicos de níveis 1 e 2 no topo da página foi harmonizada, mantendo níveis inferiores sem quebra obrigatória. Figuras, conteúdo técnico e dependências foram preservados; PDFs de projeção foram regenerados e auditados.
+- v137: padronização de paginação das Aulas 2 e 3_4. Todos os tópicos numerados de nível 1 (1, 2, 3...) e nível 2 (1.1, 1.2, 2.1, 2.2...) passam a iniciar no topo de uma nova página. O conteúdo, as figuras e o tratamento já aprovado de imagem + explicação essencial + legenda foram preservados. PDFs de projeção regenerados e dependências/links revalidados.
+- v136: fechamento da Aula 1 simplificado. O antigo tópico 5 “Demonstração comparável nos portais” foi removido; o critério de comparação e a exigência do backbone GBIF foram incorporados ao tópico 9, junto das orientações de execução e entrega. Os blocos finais foram reorganizados para 5 FAIR, 6 licenças, 7 exploração final, 8 fechamento visual, 9 Atividade Aula 1 e 10 Fontes institucionais. A Tabela 18 antiga foi removida, as tabelas seguintes renumeradas e o Percurso da Aula 1 e o Roteiro integrado foram sincronizados. PDF de projeção regenerado e links locais revalidados.
+- v135: Aula 1 padronizada para comparação entre fontes: cada base passa a repetir os subtópicos “O que é e que dados oferece”, “Como usamos nesta aula”, “Produto e evidências observadas” e “Licença, proveniência e cautelas”, com “No Explorador da Aula 1” apenas quando pertinente. Novas bases e demais tópicos numerados de segundo nível iniciam no topo da página. O Explorador da Aula 1 passou a apresentar, nos DwC-A/IPTs pertinentes, os arquivos tabulares junto de meta.xml e eml.xml (ou metadata.xml no download GBIF), distinguindo estrutura, metadados e o recorte efetivamente usado na aula. PDF de projeção regenerado e links locais revalidados.
+- v134: Aula 1 fechada por síntese visual do percurso: removidos a Tabela 22/retomada, o rótulo “Prática integrada A1-E1” e a seção separada “Síntese explícita para a avaliação final”; os tipos de fonte foram incorporados ao infográfico final e o Explorador passou a usar “Exploração integrada”. O Percurso da Aula 1 foi ajustado para terminar com o fechamento visual. O Roteiro_integrado_da_disciplina foi sincronizado com as três unidades didáticas, os horários atuais e os conteúdos efetivos das Aulas 1, 2 e 3_4. PDF de projeção e links locais revalidados.
+- v133: Aula 1 reorganizada para acompanhar primeiro, sem interrupção, as fontes com exemplos no Explorador (speciesLink → JABOT/IPT → Reflora/IPT → Flora e Funga → Catálogo da Fauna → GBIF); SiBBr/IPT, Catalogue of Life, POWO e iNaturalist passam ao bloco complementar. Percurso, mapa de classificação, numeração das seções/tabelas, exploração final e PDF de projeção foram atualizados; links locais do PDF foram revalidados.
+- v132: Explorador Aula 1 — Catálogo Taxonômico da Fauna/IPT detalhado no mesmo padrão dos demais IPTs, com estrutura do DwC-A, contagens e dicionários completos de taxon.txt e quatro extensões, incluindo exemplos reais de valores.
+
+Abra Banco_de_Dados_Biologicos.html para acessar a programação, os materiais das aulas, as atividades e as referências.
+
+ESTRUTURA PRINCIPAL
+
+- 00_Disciplina: ementa, roteiro, política de avaliação e referências.
+- 01_Aula_1: fontes de dados de biodiversidade, FAIR, licenças e Atividade Aula 1.
+- 02_Aula_2: dados tabulares e relacionais, ponte para DwC-A e Atividade Aula 2 de revisão conceitual.
+- 03_Aula_3_4: linguagem Darwin Core, DwC-A, DwC-DP, material didático e Atividade Aula 3_4.
+- 05_avaliacao: avaliação final, Explorador da Questão 8, gabarito e planilha de acompanhamento.
+
+PROJEÇÃO EM SALA
+
+Para projeção, prefira os PDFs preservados em tela cheia, pois eles mantêm exatamente a paginação, o tamanho das tabelas e figuras e as quebras de página revisadas:
+- 01_Aula_1/projecao/Aula_1_Projecao.pdf
+- 02_Aula_2/projecao/Aula_2_Projecao.pdf
+- 03_Aula_3_4/projecao/Aula_3_4_Projecao.pdf
+
+Os DOCX permanecem como arquivos mestres/editáveis.
+
+Atividade Aula 3_4 — 15 PONTOS
+
+A Atividade Aula 3_4 é uma investigação de um Darwin Core Archive público. O estudante escolhe um único conjunto entre Flora e Funga do Brasil - Lista Oficial, Brandt Meio Ambiente - Monitoramento da herpetofauna - Usina Hidrelétrica de São Simão e Embrapa Pecuária Sul - Herbário CNPO e utiliza o mesmo conjunto nas seis questões.
+
+Arquivos:
+- 03_Aula_3_4/explorador/Explorador_Atividade_Aula_3_4.html — ambiente de consulta integrado, com os Archives incorporados;
+- 03_Aula_3_4/atividade/Atividade_Aula_3_4_Resposta_do_estudante.docx — único arquivo de entrega da atividade.
+
+O explorador funciona como percurso orientado de investigação e autocorreção: apresenta o enunciado, as evidências e dicas de interpretação e mantém, ao final de cada questão, a resposta esperada recolhida para conferência. As evidências provêm do eml.xml, do meta.xml ou do arquivo tabular real. O explorador não recebe a entrega.
+
+AF1 — 45 PONTOS
+
+As questões 1 a 7 indicam as aulas correspondentes. Na questão 8, o estudante utiliza 05_avaliacao/Explorador_Questao_8.html para identificar título, versão, licença, arquivo Core, rowType, classe e unidade representada por uma linha e registra toda a resposta em 05_avaliacao/AF1_Resposta_do_estudante.docx.
+
+ENTREGAS
+
+As atividades podem ser discutidas em grupo, mas todas as entregas são individuais e devem ser enviadas para pablopains@yahoo.com.br. Na Atividade Aula 1, envie “Atividade Aula 1 - Nome Sobrenome.docx” como anexo e, no corpo do e-mail, o link compartilhado para “Atividade Aula 1 - Nome Sobrenome.zip”, que deve conter somente os downloads. Nas demais atividades, envie o arquivo como anexo, usando o padrão “Atividade Aula X - Nome Sobrenome”. Atividade Aula 3_4 e AF1 são entregues como arquivos DOCX separados, com notas independentes, conforme a política de avaliação.
+
+
+v132 — reforço da leitura taxonômica no Explorador da Aula 1. As tabelas de registros de speciesLink, JABOT e GBIF Simple passam a exibir os campos de nome científico realmente presentes em cada produto, preservando inclusive a grafia nativa dos cabeçalhos. Foram acrescentados exemplos reais dos Taxon Core de Flora e Funga do Brasil e do Catálogo Taxonômico da Fauna do Brasil com scientificName, taxonomicStatus, acceptedNameUsage e acceptedNameUsageID, além de uma leitura do occurrence.txt interpretado do GBIF com scientificName, taxonomicStatus, acceptedScientificName e acceptedNameUsage. Um quadro transversal explica as diferenças entre os campos e explicita quando nome aceito/status não estão presentes, sem forçar equivalências entre bases.
+
+v130 — correção dos hyperlinks locais nos PDFs de projeção. Os links foram recalculados a partir da pasta projecao/ para os exploradores, atividades, dados e artigos de referência. Auditoria completa: 31 links locais verificados (Aula 1: 18; Aula 2: 10; Aula 3_4: 3), todos com arquivos de destino existentes; âncoras HTML dos exploradores também foram validadas. O conteúdo visual e a paginação dos PDFs permanecem idênticos à v129.
+
+
+v129 — padronização do percurso das aulas: Aulas 1 e 2 organizadas em 08:00–12:00 e 14:00–18:00, com intervalos de 20 minutos pela manhã e à tarde; Aula 3_4 organizada em um dia completo e a manhã seguinte, também com intervalos de 20 minutos. As três programações passam a usar Horário, Tema e Conteúdo principal. Na Aula 1, BY, SA, NC e ND receberam explicações explícitas no bloco Creative Commons. Na Aula 3_4, a nova programação tornou-se a Tabela 1 e as tabelas subsequentes foram renumeradas de forma contínua. PDFs de projeção e paginação foram revalidados.
+
+v128 — refinamento de produção da Aula 1: ampliado o mapa geral das Creative Commons com CC0 e as seis licenças CC, significado de BY/SA/NC/ND e condições de uso; incluído o quadro “Quais delas aparecem nos dados que estudaremos?”; a seção de licenças do GBIF foi explicitamente delimitada ao ecossistema GBIF/IPT; o Explorador Aula 1 passou a apresentar, em cada fonte, a licença ou declaração observada, seu significado, nível de aplicação, evidência e o que preservar no reúso; speciesLink, JABOT, Reflora, Flora e Funga, Catálogo da Fauna e GBIF foram harmonizados com as evidências dos arquivos e políticas utilizadas; estrutura visual, fontes, paginação, links e Archives foram revalidados.
+v124 — ajuste técnico e pedagógico: evidências focais das Questões 1–5 do Explorador da Aula 3_4 foram separadas da conferência de respostas; Archives incorporados dos Exploradores 3_4 e Questão 8 foram revalidados para abertura local.
+v125 — harmonização tipográfica e de paginação: corrigidos tamanhos de fonte herdados fora do padrão nas Atividades Aulas 1, 2 e 3_4 e em tabelas pontuais da Aula 3_4; tabelas de resposta ajustadas para evitar quebras inadequadas entre páginas.
+v126 — revisão taxonômica e pedagógica: Aula 1 passa a ensinar explicitamente scientificName, taxonomicStatus e acceptedNameUsage, distinguindo o campo GBIF acceptedScientificName; exemplo real de Caesalpinia echinata Lam. → Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis; Aula 3_4 harmonizada com Darwin Core sem alterar a cronologia das Identifications, incluindo acceptedNameUsage/acceptedNameUsageID no Taxon Core e autoria completa nos scientificName das espécies.
+v127 — versão de produção da Aula 1: fundamentos FAIR, licenças/proveniência e interpretação de nomes científicos foram reorganizados para anteceder as demonstrações; incluído quadro oficial de localização da licença e distinção entre license, rightsHolder, accessRights e rights legado; Explorador Aula 1 passou a indicar onde a licença é encontrada em cada exemplo e toda pergunta didática recebe resposta explícita; removidos resíduos de NCBI/base molecular; Aula 2 recebeu resposta-síntese para a pergunta central e critérios declarativos de verificação; PDFs e navegação foram revalidados.
+
+=== v141 ===
+- Aula 2: cores dos blocos conceituais reforçadas para projeção.
+- Tabela 2 e Explorador: Event e Location passam a ser blocos separados, com cores distintas.
+- Explorador Aula 2: PK/FK com contraste reforçado também nas práticas relacionais e no DwC-A.
+- Aula 2: resumo dos blocos da lista taxonômica passa a iniciar em nova página.
+- Explorador Aula 2: navegação e marcadores de prática/consulta usam os nomes completos das seções.
+
+=== v142 ===
+- Aula 2 / Explorador: as tarjas/legendas de cores passam a ficar imediatamente acima das tabelas correspondentes, tanto nos exemplos chapados quanto nas práticas relacionais.
+- Aula 2 / projeção: corrigidos os caminhos relativos dos links locais para Explorador, dados, atividade e referência, considerando que o PDF está dentro da pasta projecao/.
