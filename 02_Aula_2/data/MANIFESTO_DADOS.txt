@@ -1,0 +1,36 @@
+MANIFESTO DOS DADOS — AULA 2
+
+Explorador didático
+- Arquivo: explorador/Explorador_Aula2.html
+- Biblioteca: 5 livros, 10 autores, 5 pessoas, 5 empréstimos e 11 relações livro–autor, iguais aos objetos do script R.
+- Exemplos biológicos: amostra incorporada do GBIF Simple e ocorrências com mídias reais do DwC-A fornecido.
+- Funcionamento: filtros locais, sem internet; mostra PK, FK, junções, linhas filtradas, SQL PostgreSQL equivalente e operações executadas.
+- Visualização dos dados reais: todas as colunas dos quatro arquivos são mantidas, com gbifID fixo e colorido à esquerda e rolagem horizontal para as demais.
+- Evidências estruturais: trechos literais de metadata.xml e meta.xml mostram identificação, data, filtro, rowType, location, id, coreid e termos.
+- Prática guiada 2.2: testes demonstrativos de unicidade, chaves órfãs, cardinalidade e rastreamento dos gbifID 912693816 e 5294513309.
+- Atividade Aula 2: revisão conceitual independente do Explorador; arquivo em atividade/Atividade_Aula_2.docx, com 5 questões de 3 pontos.
+- Lista taxonômica GBIF: 700 linhas e 22 colunas, filtros locais e dicionário com significado, grupo conceitual e distinção entre propriedades Darwin Core e campos produzidos pelo GBIF.
+
+Conjunto GBIF simples (tabela chapada)
+- Arquivo: data/gbif/simple/gbif_simple.tsv
+- Registros: 1.423
+- Colunas: 50
+- Tipo de ocorrência: PRESERVED_SPECIMEN
+
+Darwin Core Archive (tabelas relacionais)
+- Core: occurrence.txt — 1.423 registros
+- Extensão: verbatim.txt — 1.423 registros
+- Extensão: multimedia.txt — 610 registros ligados a 590 ocorrências
+- Descritor estrutural: meta.xml
+- Identificação: download GBIF 0000805-260715120105164, publicado em 15/07/2026
+- Filtro: espécimes preservados; Plantae/Catalogue of Life; Arcos, Doresópolis e Pains, Minas Gerais
+- Chave do core usada neste arquivo: gbifID
+- Ligação das extensões: primeira coluna, declarada como coreid em meta.xml
+
+Listas taxonômicas
+- lista_gbif.tsv — 700 linhas
+- Soma de numberOfOccurrences: 1.423
+- Origem: Species list 0008869-260721160103020; a solicitação registra GBIF Backbone. O ZIP contém somente o CSV, por isso a proveniência depende da página/JSON do download.
+
+Observação conceitual
+id e coreid são mecanismos estruturais do Darwin Core Archive. Não são termos Darwin Core.

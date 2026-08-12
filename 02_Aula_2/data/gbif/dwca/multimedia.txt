@@ -1,0 +1,611 @@
+gbifID	type	format	identifier	references	title	description	source	audience	created	creator	contributor	publisher	license	rightsHolder
+912693816	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/0b0ae33ce20a67cdef5ae45324ba1fa3.jpg	http://specimens.kew.org/Herbarium/K000944311									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+912693816	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/650c7353254fdf6718b89cd00b4de991.jpg	http://specimens.kew.org/Herbarium/K000944311									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+6327426311				https://images.cria.org.br/viewer/BHCB071862										
+6327424309				https://images.cria.org.br/viewer/BHCB071863										
+6220016319				https://images.cria.org.br/viewer/MBM452664										
+6220015328				https://images.cria.org.br/viewer/MBM452665										
+6220002303				https://images.cria.org.br/viewer/MBM452662										
+5830177582				https://images.cria.org.br/viewer/SP122527										
+5294513309				https://images.cria.org.br/viewer/BHCB070436_1										
+5294513309				https://images.cria.org.br/viewer/BHCB070436_2										
+5294513309				https://images.cria.org.br/viewer/BHCB070436_3										
+5294513309				https://images.cria.org.br/viewer/BHCB070436_4										
+5294513309				https://images.cria.org.br/viewer/BHCB070436_5										
+5294513309				https://images.cria.org.br/viewer/BHCB070436_6										
+5294513309				https://images.cria.org.br/viewer/BHCB070436_7										
+5294387910	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/b331ccc64eb057dd89518685769ab3f2.jpg	http://specimens.kew.org/Herbarium/K005151216									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+5138427346	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/efdd533bd65740df978097819c817b67.jpg	http://specimens.kew.org/Herbarium/K005151137									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+5130227887	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/53a8b1b75ac46f9bc2f2e6e323d936f2.jpg	http://specimens.kew.org/Herbarium/K005890266									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+5077823899	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/dc146b566fde8e9eadf666bf4b1e5634.jpg	http://specimens.kew.org/Herbarium/K005481792									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+5077823899	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/1a62004450df949d7be27891da4676dd.jpg	http://specimens.kew.org/Herbarium/K005481792									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+5054542304				https://images.cria.org.br/viewer/BHCB069096										
+5053268959				https://images.cria.org.br/viewer/UFG0065061										
+5000829315				https://images.cria.org.br/viewer/SP012042										
+5000791309				https://images.cria.org.br/viewer/BHCB068224										
+4999725257				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/herbariumr/r/1/0/96/38/0/r010096380.dzi									Creative Commons	R
+4981646659	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/ef4b69ee6c1fee4b4f8eee750b3b027d.jpg	http://specimens.kew.org/Herbarium/K004847635									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4981620085	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/ff92b01041ea85bf014dbcbc6cf17362.jpg	http://specimens.kew.org/Herbarium/K004847638									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4981610088	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/f4f09a9fe2c53f6d106446cf783c2781.jpg	http://specimens.kew.org/Herbarium/K004847035									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4981607675	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/32c1c49c5461c70a8e2d6ff342055a9e.jpg	http://specimens.kew.org/Herbarium/K004847637									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4977593329	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/873ebaabc05be51487a016689c8e7e78.jpg	http://specimens.kew.org/Herbarium/K004845933									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4955432592				https://images.cria.org.br/viewer/CESJ044154										
+4955415499				https://images.cria.org.br/viewer/CESJ045940										
+4955155152				https://images.cria.org.br/viewer/HUFABC000226										
+4955155152				https://images.cria.org.br/viewer/HUFABC000226_1										
+4953992262	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/5def5977c45dd006c95b14160f05bb98.jpg	http://specimens.kew.org/Herbarium/K003785893									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4953986888	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/77f3c201261325aa084baee3ad3566bc.jpg	http://specimens.kew.org/Herbarium/K003709917									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4953844660				https://images.cria.org.br/viewer/UPCB0053080										
+4928890770				https://images.cria.org.br/viewer/HUEFS0265091										
+4928884032				https://images.cria.org.br/viewer/HUEFS0266656										
+4928884032				https://images.cria.org.br/viewer/HUEFS0266656_1										
+4928883508				https://images.cria.org.br/viewer/HUEFS0264481										
+4900518109	StillImage	dzi	http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/alcb/alcb/0/7/83/23/alcb00078323.dzi	http://www.herbariovirtualreflora.jbrj.gov.br/reflora/geral/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=307075474									http://creativecommons.org/licenses/by/4.0/	ALCB
+4900481914				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/herbariumr/r/1/0/20/16/9/r010020169.dzi									Creative Commons	R
+4874479733				https://images.cria.org.br/viewer/BHCB067557										
+4873806510	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/9445f5fe2eab14ebadbc4e0fd0260fae.jpg	http://specimens.kew.org/Herbarium/K004846838									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4853909943	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/a32a07b5ad76ed9a2a353288644d9b45.jpg	http://specimens.kew.org/Herbarium/K004848341									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4519434126	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/82c6a43f7e2cd5eda43fc4ad7a259b5e.jpg	http://specimens.kew.org/Herbarium/K001516460									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+4462607258				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/ub/ub/0/11/22/67/ub00112267.dzi									Creative Commons	UB
+4455813586				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/ibge/ibge/0/5/97/98/ibge00059798.dzi									Creative Commons	IBGE
+4455813583				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/ibge/ibge/0/5/97/95/ibge00059795.dzi									Creative Commons	IBGE
+4455805835				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/ibge/ibge/0/0/20/12/ibge00002012.dzi									Creative Commons	IBGE
+4455802155				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/ibge/ibge/0/3/64/38/ibge00036438.dzi									Creative Commons	IBGE
+4455781368				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/ibge/ibge/0/5/97/96/ibge00059796.dzi									Creative Commons	IBGE
+4443660581				https://images.cria.org.br/viewer/ALCB078323										
+4439761323				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/upcb/upcb/0/5/30/80/upcb00053080.dzi									Creative Commons	UPCB
+4433862342	StillImage	image/jpeg	https://collections.nmnh.si.edu/media/?i=16557953&h=2000		03457078.tif	Melo, P. H. 781, US National Herbarium Sheet 3764176, Barcode 03457078	US National Herbarium, Department of Botany, NMNH, Smithsonian Institution			Ingrid P. Lin		Smithsonian Institution, NMNH, Botany	http://creativecommons.org/publicdomain/zero/1.0/	
+4433855328	StillImage	image/jpeg	https://collections.nmnh.si.edu/media/?i=16557952&h=2000		03457077.tif	Melo, P. H. 657, US National Herbarium Sheet 3764166, Barcode 03457077	US National Herbarium, Department of Botany, NMNH, Smithsonian Institution			Ingrid P. Lin		Smithsonian Institution, NMNH, Botany	http://creativecommons.org/publicdomain/zero/1.0/	
+4427262869				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/mbm/mbm/0/44/6/95/mbm00440695.dzi									http://creativecommons.org/licenses/by/4.0/	MBM
+4427257911				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/mbm/mbm/0/43/64/89/mbm00436489.dzi									http://creativecommons.org/licenses/by/4.0/	MBM
+4427238763				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/cen/cen/0/11/91/94/cen00119194.dzi									http://creativecommons.org/licenses/by/4.0/	CEN
+4427235654				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/cen/cen/0/11/97/62/cen00119762.dzi									http://creativecommons.org/licenses/by/4.0/	CEN
+4427188076				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/heph/heph/0/2/99/40/heph00029940.dzi									http://creativecommons.org/licenses/by/4.0/	HEPH
+4165281304				https://images.cria.org.br/viewer/BHCB065525										
+4165280306				https://images.cria.org.br/viewer/BHCB058289										
+4165258722				https://images.cria.org.br/viewer/HRCB073573										
+4165258713				https://images.cria.org.br/viewer/HRCB073570										
+4165258709				https://images.cria.org.br/viewer/HRCB073572										
+4165258693				https://images.cria.org.br/viewer/HRCB073569										
+4162766597	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/hstm/hstm/0/1/20/60/hstm00012060.dzi									http://creativecommons.org/licenses/by/4.0/	HSTM
+4162710497	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/unop/unop/0/0/59/41/unop00005941.dzi									http://creativecommons.org/licenses/by/4.0/	UNOP
+4093110335				https://images.cria.org.br/viewer/BHCB212694										
+3969882066	StillImage	image/jpeg	https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT0420000/BRIT420103.jpg											Botanical Research Institute of Texas
+3897239352				https://images.cria.org.br/viewer/BHCB209614										
+3868231303				https://images.cria.org.br/viewer/UEC188699										
+3800710904				https://images.cria.org.br/viewer/CEN00119194										
+3800710654				https://images.cria.org.br/viewer/CEN00119762										
+3745854338				https://images.cria.org.br/viewer/UEC182068										
+3745850333				https://images.cria.org.br/viewer/UEC182069										
+3696004307				https://images.cria.org.br/viewer/BHCB060148										
+3696004306				https://images.cria.org.br/viewer/BHCB060114										
+3696003308				https://images.cria.org.br/viewer/BHCB060116										
+3695999307				https://images.cria.org.br/viewer/BHCB056141										
+3695996301				https://images.cria.org.br/viewer/BHCB060110										
+3695994305				https://images.cria.org.br/viewer/BHCB060153										
+3695994304				https://images.cria.org.br/viewer/BHCB060112										
+3695992309				https://images.cria.org.br/viewer/BHCB060113										
+3695992304				https://images.cria.org.br/viewer/BHCB060111										
+3695988307				https://images.cria.org.br/viewer/BHCB060115										
+3695987306				https://images.cria.org.br/viewer/BHCB055530										
+3695987305				https://images.cria.org.br/viewer/BHCB060147										
+3397872301				https://images.cria.org.br/viewer/BHCB068596										
+3345575663				http://jbrj-public.s3.amazonaws.com/fsi/server?type=image&source=DZI/mbm/mbm/0/32/83/72/mbm00328372.dzi									http://creativecommons.org/licenses/by/4.0/	MBM
+3127365317				https://images.cria.org.br/viewer/BHCB202536										
+3127362320				https://images.cria.org.br/viewer/BHCB202537										
+3127358319				https://images.cria.org.br/viewer/BHCB202532										
+3127357318				https://images.cria.org.br/viewer/BHCB202533										
+3127355319				https://images.cria.org.br/viewer/BHCB202534										
+3127347319				https://images.cria.org.br/viewer/BHCB202535										
+3127345321				https://images.cria.org.br/viewer/BHCB202531										
+3071053406				https://images.cria.org.br/viewer/SP0369815										
+3071050413				https://images.cria.org.br/viewer/SP0369788										
+3071049403				https://images.cria.org.br/viewer/SP0369819										
+3071048391				https://images.cria.org.br/viewer/SP0369852										
+3071047392				https://images.cria.org.br/viewer/SP0369811										
+3071045400				https://images.cria.org.br/viewer/SP0369810										
+3071043396				https://images.cria.org.br/viewer/SP0370639										
+3071042407				https://images.cria.org.br/viewer/SP0370640										
+3071040400				https://images.cria.org.br/viewer/SP0369845										
+3071040399				https://images.cria.org.br/viewer/SP0369809										
+3071038399				https://images.cria.org.br/viewer/SP0370638										
+3071037400				https://images.cria.org.br/viewer/SP0369842										
+3071036401				https://images.cria.org.br/viewer/SP0370583										
+3071036399				https://images.cria.org.br/viewer/SP0369846										
+3032387334				https://images.cria.org.br/viewer/HUFU00078327										
+2998679951				http://jbrj-public.s3.amazonaws.com/fsi/server?type=image&source=DZI/cen/cen/0/8/21/91/cen00082191.dzi									http://creativecommons.org/licenses/by/4.0/	CEN
+2998255221				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/kew/k/0/9/96/27/3/k000996273.dzi									http://creativecommons.org/licenses/by/4.0/	K
+2998212767				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/kew/k/0/9/44/31/1/k000944311.dzi									http://creativecommons.org/licenses/by/4.0/	K
+2998161168				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/sjrp/sjrp/0/0/77/55/sjrp00007755.dzi									http://creativecommons.org/licenses/by/4.0/	SJRP
+2998034125				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/1/1/77/24/ny_01017724.dzi									Creative Commons	NY
+2997958953				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/1/28/17/62/ny_01281762.dzi									Creative Commons	NY
+2997848489				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/1/85/75/42/ny_01857542.dzi									Creative Commons	NY
+2997837801				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/37/23/spf00163723.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997835767				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/5/1/spf00160501.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997831365				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/0/95/56/67/ny_00955667.dzi									Creative Commons	NY
+2997806982				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/37/28/spf00163728.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997757638				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/1/72/spf00160172.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997751669				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/15/16/spf00161516.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997747148				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/18/96/52/spf00189652.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997719401				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/43/80/spf00164380.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997710243				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/1/14/51/1/ny_01145101.dzi									Creative Commons	NY
+2997666234				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/1/14/51/0/ny_01145100.dzi									Creative Commons	NY
+2997666073				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/1/1/93/50/ny_01019350.dzi									Creative Commons	NY
+2997660735				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/44/0/spf00164400.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997636502				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/4/97/spf00160497.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997634801				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/37/25/spf00163725.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997634569				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/37/22/spf00163722.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997629541				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/4/98/spf00160498.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997621092				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/2/27/spf00160227.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997612498				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/4/99/spf00160499.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997612498				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/4/99/spf00160499_1.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997521619				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/2/34/spf00160234.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997520614				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/1/81/spf00160181.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997518727				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/44/29/spf00164429.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997518655				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/2/35/spf00160235.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997516653				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/2/24/spf00160224.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997514693				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/37/29/spf00163729.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997514665				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/21/13/spf00162113.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997514632				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/2/25/spf00160225.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997513175				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/19/32/96/spf00193296.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997512695				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/44/30/spf00164430.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997483395				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/1/17/spf00160117.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997481402				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/spf/spf/0/16/0/99/spf00160099.dzi									http://creativecommons.org/licenses/by/4.0/	SPF
+2997442823				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/1/18/39/94/ny_01183994.dzi									Creative Commons	NY
+2997382015				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/newyork/ny_/v-069-00/95/68/74/ny_v-069-00956874.dzi									Creative Commons	NY
+2996965382				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/vies/vies/0/4/60/73/vies00046073.dzi									http://creativecommons.org/licenses/by/4.0/	VIES
+2996582297				http://jbrj-public.s3.amazonaws.com/fsi/server?type=image&source=DZI/mbm/mbm/0/35/10/34/mbm00351034.dzi									http://creativecommons.org/licenses/by/4.0/	MBM
+2996214387				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/hufu/hufu/0/7/34/10/hufu00073410.dzi									http://creativecommons.org/licenses/by/4.0/	HUFU
+2996214385				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/hufu/hufu/0/7/34/9/hufu00073409.dzi									http://creativecommons.org/licenses/by/4.0/	HUFU
+2995784070				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/ase/ase/0/2/59/49/ase00025949.dzi									http://creativecommons.org/licenses/by/4.0/	ASE
+2995693955				http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/heph/heph/0/1/77/25/heph00017725.dzi									http://creativecommons.org/licenses/by/4.0/	HEPH
+2574969779				https://images.cria.org.br/viewer/BHCB054967										
+2574969777				https://images.cria.org.br/viewer/BHCB054969										
+2574969774				https://images.cria.org.br/viewer/BHCB054968										
+2574969765				https://images.cria.org.br/viewer/BHCB054485										
+2574969734				https://images.cria.org.br/viewer/BHCB054410										
+2574969732				https://images.cria.org.br/viewer/BHCB054959										
+2574969719				https://images.cria.org.br/viewer/BHCB054960										
+2574969718				https://images.cria.org.br/viewer/BHCB054957										
+2574969714				https://images.cria.org.br/viewer/BHCB054488										
+2574969713				https://images.cria.org.br/viewer/BHCB054958										
+2565912602				https://images.cria.org.br/viewer/SPF00188962										
+2565912595				https://images.cria.org.br/viewer/SPF00188900										
+2565912587				https://images.cria.org.br/viewer/SPF00188964										
+2565912544				https://images.cria.org.br/viewer/SPF00188963										
+2565908236				https://images.cria.org.br/viewer/SPF00168321										
+2565907306				https://images.cria.org.br/viewer/SPF00188956										
+2563084935				https://images.cria.org.br/viewer/BHCB053841										
+2563084934				https://images.cria.org.br/viewer/BHCB054172										
+2563084927				https://images.cria.org.br/viewer/BHCB053840										
+2563084905				https://images.cria.org.br/viewer/BHCB054152										
+2563083857				https://images.cria.org.br/viewer/BHCB054159										
+2558849605				https://images.cria.org.br/viewer/VIES046073										
+2553493649				https://images.cria.org.br/viewer/SPF00188884										
+2542594769				https://images.cria.org.br/viewer/BHCB053115										
+2542594766				https://images.cria.org.br/viewer/BHCB053176										
+2542594757				https://images.cria.org.br/viewer/BHCB053021										
+2542594754				https://images.cria.org.br/viewer/BHCB052826										
+2542594753				https://images.cria.org.br/viewer/BHCB052982										
+2542594751				https://images.cria.org.br/viewer/BHCB053384										
+2542594749				https://images.cria.org.br/viewer/BHCB053385										
+2542594743				https://images.cria.org.br/viewer/BHCB053389										
+2542594739				https://images.cria.org.br/viewer/BHCB052981										
+2542594738				https://images.cria.org.br/viewer/BHCB052965										
+2542594736				https://images.cria.org.br/viewer/BHCB052874										
+2542594733				https://images.cria.org.br/viewer/BHCB052964										
+2542594728				https://images.cria.org.br/viewer/BHCB053114										
+2542594727				https://images.cria.org.br/viewer/BHCB053020										
+2542594724				https://images.cria.org.br/viewer/BHCB052979										
+2542594720				https://images.cria.org.br/viewer/BHCB052966										
+2542594700				https://images.cria.org.br/viewer/BHCB201167										
+2542594685				https://images.cria.org.br/viewer/BHCB201166										
+2542594683				https://images.cria.org.br/viewer/BHCB200653										
+2542594678				https://images.cria.org.br/viewer/BHCB201168										
+2542594676				https://images.cria.org.br/viewer/BHCB200666										
+2542594662				https://images.cria.org.br/viewer/BHCB201169										
+2542594655				https://images.cria.org.br/viewer/BHCB200658										
+2542594621				https://images.cria.org.br/viewer/BHCB200670										
+2542594610				https://images.cria.org.br/viewer/BHCB200669										
+2542594587				https://images.cria.org.br/viewer/BHCB200673										
+2542594584				https://images.cria.org.br/viewer/BHCB200672										
+2542594555				https://images.cria.org.br/viewer/BHCB200656										
+2542594554				https://images.cria.org.br/viewer/BHCB200654										
+2542594552				https://images.cria.org.br/viewer/BHCB200668										
+2542594539				https://images.cria.org.br/viewer/BHCB200663										
+2542594478				https://images.cria.org.br/viewer/BHCB200665										
+2542594431				https://images.cria.org.br/viewer/BHCB200662										
+2542594398				https://images.cria.org.br/viewer/BHCB200661										
+2542594375				https://images.cria.org.br/viewer/BHCB200657										
+2542594358				https://images.cria.org.br/viewer/BHCB200667										
+2542594345				https://images.cria.org.br/viewer/BHCB200655										
+2521068630				https://images.cria.org.br/viewer/SPF00188865										
+2521067625				https://images.cria.org.br/viewer/SPF00188864										
+2521065618				https://images.cria.org.br/viewer/SPF00188863										
+2521062629				https://images.cria.org.br/viewer/SPF00188866										
+2465051194				https://images.cria.org.br/viewer/HUEFS0253010										
+2464868106				https://images.cria.org.br/viewer/BHCB052746										
+2464863630				https://images.cria.org.br/viewer/BHCB052747										
+2452939886				https://images.cria.org.br/viewer/SP122546										
+2452927166				https://images.cria.org.br/viewer/SP0397153										
+2452925814				https://images.cria.org.br/viewer/SP0397152										
+2452923910				https://images.cria.org.br/viewer/SP018293										
+2452920523				https://images.cria.org.br/viewer/SP020181										
+2452919835				https://images.cria.org.br/viewer/SP012041										
+2452919759				https://images.cria.org.br/viewer/SP019800										
+2452919615				https://images.cria.org.br/viewer/SP0369837										
+2452918392				https://images.cria.org.br/viewer/SP0369814										
+2425045970				https://images.cria.org.br/viewer/BHCB051115										
+2425045969				https://images.cria.org.br/viewer/BHCB051116										
+2313593578				https://images.cria.org.br/viewer/BHCB195501										
+2302489694	StillImage			http://jbrj-public.s3.amazonaws.com/fsi/server?type=image&source=DZI/unop/unop/0/0/59/41/unop00005941.dzi									http://creativecommons.org/licenses/by/4.0/	UNOP
+2284494363	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/171411.jpg		Senecio vernonioides Sch. Bip. - Brazil, Paraná (BARCODE: 171411) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+2274808034				https://images.cria.org.br/viewer/HUEFS0250494										
+2274792615				https://images.cria.org.br/viewer/BHCB000534										
+2242465797	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/190196.jpg		Lagerstroemia pacari A. St.-Hil. - Brazil, Mato Grosso (BARCODE: 190196) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+2236797514				https://images.cria.org.br/viewer/SPF00164400										
+1986494116				https://images.cria.org.br/viewer/HUEFS0245464										
+1986494116				https://images.cria.org.br/viewer/HUEFS0245464_e1										
+1986493938				https://images.cria.org.br/viewer/HUEFS0245462										
+1986493936				https://images.cria.org.br/viewer/HUEFS0245461										
+1986493936				https://images.cria.org.br/viewer/HUEFS0245461_e1										
+1986493931				https://images.cria.org.br/viewer/HUEFS0245459										
+1986493931				https://images.cria.org.br/viewer/HUEFS0245459_e1										
+1986493929				https://images.cria.org.br/viewer/HUEFS0245463										
+1986493929				https://images.cria.org.br/viewer/HUEFS0245463_e1										
+1986493912				https://images.cria.org.br/viewer/HUEFS0245418										
+1986493871				https://images.cria.org.br/viewer/HUEFS0245380										
+1986493486				https://images.cria.org.br/viewer/HUEFS0243063										
+1978403268				https://images.cria.org.br/viewer/SPF00160219										
+1949968041				https://images.cria.org.br/viewer/HUEFS0245340										
+1949968040				https://images.cria.org.br/viewer/HUEFS0245344										
+1949968038				https://images.cria.org.br/viewer/HUEFS0245347										
+1949968036				https://images.cria.org.br/viewer/HUEFS0245348										
+1949968033				https://images.cria.org.br/viewer/HUEFS0245351										
+1949968021				https://images.cria.org.br/viewer/HUEFS0245341										
+1949968012				https://images.cria.org.br/viewer/HUEFS0245350										
+1949968009				https://images.cria.org.br/viewer/HUEFS0245345										
+1949968009				https://images.cria.org.br/viewer/HUEFS0245345_e1										
+1949967910				https://images.cria.org.br/viewer/HUEFS0245346										
+1949967905				https://images.cria.org.br/viewer/HUEFS0245352										
+1949967904				https://images.cria.org.br/viewer/HUEFS0245338										
+1949967897				https://images.cria.org.br/viewer/HUEFS0245343										
+1949967798				https://images.cria.org.br/viewer/HUEFS0245342										
+1949967797				https://images.cria.org.br/viewer/HUEFS0245339										
+1949967767				https://images.cria.org.br/viewer/HUEFS0245321										
+1949967754				https://images.cria.org.br/viewer/HUEFS0245320										
+1947780097	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/185817.jpg		Tetrapterys salicifolia (A. Juss.) Nied. - Brazil, Paraná (BARCODE: 185817) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+1936707473				https://images.cria.org.br/viewer/HUEFS0244319										
+1936707473				https://images.cria.org.br/viewer/HUEFS0244319_e1										
+1936634312	StillImage	image/jpeg	https://assets.rjb.csic.es/fileget?coll=Plantas+Vasculares&type=O&filename=sp68026571354658750689.att.jpg&downloadname=MA-01-00716700	https://assets.rjb.csic.es/fileget?coll=Plantas+Vasculares&type=O&filename=sp68026571354658750689.att.jpg&downloadname=MA-01-00716700	MA-01-00716700								http://creativecommons.org/licenses/by-nc/4.0/	
+1936633961	StillImage	image/jpeg	https://assets.rjb.csic.es/fileget?coll=Plantas+Vasculares&type=O&filename=sp66334883402726782134.att.jpg&downloadname=MA-01-00716704	https://assets.rjb.csic.es/fileget?coll=Plantas+Vasculares&type=O&filename=sp66334883402726782134.att.jpg&downloadname=MA-01-00716704	MA-01-00716704								http://creativecommons.org/licenses/by-nc/4.0/	
+1935009293				https://images.cria.org.br/viewer/BHCB191222										
+1935009285				https://images.cria.org.br/viewer/BHCB191221										
+1935009284				https://images.cria.org.br/viewer/BHCB191232										
+1935009281				https://images.cria.org.br/viewer/BHCB191223										
+1932866616				https://images.cria.org.br/viewer/SPF00164379										
+1931780082				https://images.cria.org.br/viewer/HUFU00073409										
+1931780025				https://images.cria.org.br/viewer/HUFU00073410										
+1931178178	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/2147/287/01145100.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1930222749	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/2147/288/01145101.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1930097673	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/2147/034/01017724.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1929731438	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/1618/519/01281762.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1929666834	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/1084/973/01857542.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1928743226	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/1618/338/01183994.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1928546862	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/1084/738/00955667.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1928309097	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/233/619/v-069-00956874.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1928061250	StillImage	image/jpeg	http://sweetgum.nybg.org/images3/2147/061/01019350.jpg							The New York Botanical Garden			http://creativecommons.org/licenses/by/4.0/	The New York Botanical Garden
+1915274496				https://images.cria.org.br/viewer/HUEFS0244134										
+1915274437				https://images.cria.org.br/viewer/HUEFS0244128										
+1915274385				https://images.cria.org.br/viewer/HUEFS0244002										
+1915274348				https://images.cria.org.br/viewer/HUEFS0243974										
+1915274280				https://images.cria.org.br/viewer/HUEFS0243919										
+1915274272				https://images.cria.org.br/viewer/HUEFS0243967										
+1889180191				https://images.cria.org.br/viewer/SPF00160216										
+1853952098				https://images.cria.org.br/viewer/SPF00163725										
+1853952096				https://images.cria.org.br/viewer/SPF00163723										
+1853951955				https://images.cria.org.br/viewer/SPF00160501										
+1853951874				https://images.cria.org.br/viewer/SPF00160200										
+1840928358				https://images.cria.org.br/viewer/SPF00163722										
+1840928318				https://images.cria.org.br/viewer/SPF00160499										
+1840928318				https://images.cria.org.br/viewer/SPF00160499_1										
+1840928315				https://images.cria.org.br/viewer/SPF00160498										
+1840928314				https://images.cria.org.br/viewer/SPF00160497										
+1806875376				https://images.cria.org.br/viewer/BHCB034083										
+1802856619				https://images.cria.org.br/viewer/BHCB000504										
+1702649942				https://images.cria.org.br/viewer/SPF00163728										
+1702649874				https://images.cria.org.br/viewer/SPF00160227										
+1671752449	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/166274.jpg		Bauhinia rufa (Bong.) Steud. - Brazil, Mato Grosso (BARCODE: 166274) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+1671752438	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/166270.jpg		Bauhinia rufa (Bong.) Steud. - Brazil, Mato Grosso (BARCODE: 166270) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+1671752325	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/148295.jpg		Bauhinia pulchella Benth. - Brazil, Mato Grosso (BARCODE: 148295) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+1664964279	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/166237.jpg		Bauhinia cupulata Benth. - Brazil, Mato Grosso (BARCODE: 166237) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+1638342038				https://images.cria.org.br/viewer/HUEFS0229577										
+1638342036				https://images.cria.org.br/viewer/HUEFS0229576										
+1587302566				https://images.cria.org.br/viewer/SPF00160229										
+1585193947				https://images.cria.org.br/viewer/SPF00164380										
+1585193924				https://images.cria.org.br/viewer/SPF00160117										
+1584439311	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/28363.jpg		Habenaria platydactyla Kränzl. - Brazil, Paraná (BARCODE: 28363) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+1576158289	StillImage	image/jpeg	https://cdn.plantatlas.org/img/specimens/USF/26765.jpg		Epidendrum patens Sw. - Brazil, Minas Gerais (BARCODE: 26765) - USF Herbarium								http://creativecommons.org/licenses/by-nc-sa/4.0/	University of South Florida Herbarium (USF)
+1570747613				https://images.cria.org.br/viewer/SPF00160099										
+1450975237				https://images.cria.org.br/viewer/SPF00160181										
+1424497066	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/90/33/32/00903332.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424492779	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/88/6/64/00880664.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424492753	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/88/6/63/00880663.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424491994	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/87/92/87/00879287.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424491970	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/87/92/39/00879239.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424491969	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/87/92/47/00879247.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424489731	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/87/30/50/00873050.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424489707	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/87/30/60/00873060.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424479217	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/85/18/66/00851866.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424344413	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/63/51/16/00635116.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424335132	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/62/57/75/00625775.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424329213	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/62/2/14/00620214.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424327267	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/61/73/95/00617395.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424319749	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/60/98/93/00609893.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424300942	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/58/98/89/00589889.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424295153	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/58/44/9/00584409.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424295131	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/58/44/8/00584408.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424293797	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/58/31/47/00583147.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424293751	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/58/31/55/00583155.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424293735	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/58/31/53/00583153.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424293703	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/58/31/48/00583148.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424288333	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/57/76/55/00577655.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424274660	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/56/7/4/00560704.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424274649	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/56/7/5/00560705.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424274644	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/56/6/98/00560698.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424274641	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/56/7/10/00560710.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424274604	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/56/7/1/00560701.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424270293	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/55/65/87/00556587.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424270291	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/55/65/88/00556588.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424270289	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/55/66/13/00556613.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424270249	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/55/65/86/00556586.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424268151	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/55/46/28/00554628.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424267926	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/55/29/70/00552970.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424263086	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/54/80/71/00548071.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424263085	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/54/80/75/00548075.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424263022	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/54/80/69/00548069.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424262480	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/54/74/54/00547454.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424262050	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/54/61/94/00546194.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424251489	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/53/45/76/00534576.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424251217	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/53/43/11/00534311.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424250766	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/53/38/17/00533817.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424250728	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/53/38/14/00533814.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424249023	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/53/21/74/00532174.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424249019	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/53/21/72/00532172.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424247488	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/53/8/3/00530803.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424244324	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/76/66/00527666.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424244269	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/76/67/00527667.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424244142	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/76/87/00527687.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424243553	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/70/14/00527014.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424243547	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/70/19/00527019.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424243534	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/70/17/00527017.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424243465	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/70/20/00527020.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424242835	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/63/6/00526306.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424242795	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/63/8/00526308.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424242789	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/63/7/00526307.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424242749	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/63/2/00526302.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424242742	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/63/4/00526304.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424242009	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/55/66/00525566.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241898	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/54/47/00525447.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241824	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/54/48/00525448.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241811	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/54/44/00525444.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241802	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/54/46/00525446.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241784	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/54/51/00525451.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241761	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/54/42/00525442.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241544	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/52/9/00525209.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241460	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/52/11/00525211.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241304	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/48/85/00524885.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241203	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/48/84/00524884.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241142	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/47/96/00524796.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241129	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/47/93/00524793.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424241116	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/47/97/00524797.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424240347	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/35/29/00523529.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424239538	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/52/27/78/00522778.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424236338	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/51/94/59/00519459.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424236305	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/51/94/60/00519460.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424236289	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/51/94/67/00519467.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424236286	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/51/94/62/00519462.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424236267	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/51/94/65/00519465.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424233207	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/51/64/95/00516495.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424221219	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/8/64/00490864.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424221193	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/8/76/00490876.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424221180	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/8/62/00490862.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424221170	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/8/57/00490857.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424221160	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/8/63/00490863.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220492	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/1/40/00490140.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220425	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/1/73/00490173.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220414	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/1/74/00490174.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220406	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/1/26/00490126.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220356	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/49/00490049.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220355	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/38/00490038.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220330	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/54/00490054.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220325	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/36/00490036.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220321	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/41/00490041.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220320	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/40/00490040.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220315	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/43/00490043.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424220294	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/49/0/47/00490047.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424216212	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/62/43/00486243.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424215530	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/55/79/00485579.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424215424	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/55/75/00485575.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424213690	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/39/61/00483961.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424213659	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/39/41/00483941.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424213644	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/38/86/00483886.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424213593	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/38/66/00483866.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424213576	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/48/38/83/00483883.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424200294	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/47/14/72/00471472.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424198217	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/46/95/20/00469520.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424196240	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/46/76/25/00467625.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424195296	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/46/68/39/00466839.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424172460	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/43/87/26/00438726.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424158745	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/62/56/00426256.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424158696	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/61/94/00426194.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424158205	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/57/64/00425764.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424157112	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/45/57/00424557.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424156744	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/42/17/00424217.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424156737	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/42/18/00424218.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424156730	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/42/15/00424215.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424156698	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/41/81/00424181.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424156682	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/42/13/00424213.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424155289	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/25/68/00422568.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424155274	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/25/67/00422567.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424154525	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/15/13/00421513.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424154478	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/15/14/00421514.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424154067	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/9/55/00420955.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424153603	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/5/27/00420527.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424153329	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/2/69/00420269.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424153316	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/2/71/00420271.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424153081	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/0/59/00420059.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424153076	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/0/27/00420027.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424153067	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/42/0/18/00420018.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424153026	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/99/88/00419988.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152993	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/99/58/00419958.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152979	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/99/50/00419950.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152894	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/98/69/00419869.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152649	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/96/46/00419646.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152460	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/94/74/00419474.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152434	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/94/72/00419472.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152430	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/94/41/00419441.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424152189	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/91/67/00419167.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151947	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/80/00418880.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151946	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/77/00418877.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151940	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/74/00418874.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151939	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/81/00418881.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151931	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/75/00418875.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151926	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/76/00418876.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151904	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/43/00418843.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151892	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/45/00418845.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151875	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/88/26/00418826.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151291	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/76/48/00417648.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424151275	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/76/46/00417646.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150749	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/70/12/00417012.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150725	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/69/90/00416990.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150706	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/69/87/00416987.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150548	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/67/9/00416709.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150538	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/67/4/00416704.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150514	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/67/2/00416702.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150497	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/65/75/00416575.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150495	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/65/73/00416573.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150483	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/65/72/00416572.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424150461	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/41/65/87/00416587.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424065212	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/30/36/45/00303645.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424065197	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/30/36/24/00303624.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424065162	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/30/36/13/00303613.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424065133	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/30/35/91/00303591.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424065096	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/30/35/12/00303512.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424059356	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/28/68/38/00286838.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424056940	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/27/51/47/00275147.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424056929	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/27/51/62/00275162.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424056919	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/27/51/43/00275143.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424056908	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/27/51/37/00275137.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424056825	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/27/50/57/00275057.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424056824	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/27/50/63/00275063.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1424055619	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/27/38/23/00273823.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423996825	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/18/40/83/00184083.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423983986	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/17/11/14/00171114.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423983498	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/17/6/36/00170636.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423970853	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/15/78/79/00157879.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423970795	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/15/78/62/00157862.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423970771	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/15/78/44/00157844.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423969900	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/14/81/59/00148159.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423969289	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/14/75/38/00147538.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423959588	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/13/67/62/00136762.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423920288	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/11/52/60/00115260.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1423920238	StillImage			http://jbrj-public.s3-sa-east-1.amazonaws.com/fsi/server?type=image&source=DZI/rb/0/11/52/65/00115265.dzi									http://creativecommons.org/licenses/by/4.0/	Rio de Janeiro Botanical Garden
+1413713004				https://images.cria.org.br/viewer/SPF00161516										
+1316166127				https://images.cria.org.br/viewer/SPF00163887										
+1303203621				https://images.cria.org.br/viewer/SPF00160234										
+1303203614				https://images.cria.org.br/viewer/SPF00160235										
+1269536168				https://images.cria.org.br/viewer/FCAB006995										
+1269536167				https://images.cria.org.br/viewer/FCAB006993										
+1269536163				https://images.cria.org.br/viewer/FCAB006988										
+1269536162				https://images.cria.org.br/viewer/FCAB007006										
+1269536154				https://images.cria.org.br/viewer/FCAB007008										
+1269536146				https://images.cria.org.br/viewer/FCAB007009										
+1269536137				https://images.cria.org.br/viewer/FCAB007007										
+1264691912				https://images.cria.org.br/viewer/SPF00162113										
+1257673200	StillImage	image/jpeg	https://images.mobot.org/RISScanning02/detailImages/RISScanning02/103114000/BEBDCE34-4526-4C3E-B9CD-A25F3B6AE5C6.jpg	https://www.tropicos.org/ImageFullView.aspx?imageid=103114473	Melo - 624 - Brazil					MBG			http://creativecommons.org/licenses/by-nc-sa/3.0/	MBG
+1252637238	StillImage	image/jpeg	https://d2jcv3kl45hlgi.cloudfront.net/ab5ca51c02c8f49c1dd571ef88e92075.jpg	http://specimens.kew.org/Herbarium/K000996273									http://creativecommons.org/licenses/by/4.0/	Royal Botanic Gardens, Kew
+1252619027				https://images.cria.org.br/viewer/SPF00164429										
+1234543997				https://images.cria.org.br/viewer/SPF00160207										
+1226936684				https://images.cria.org.br/viewer/SPF00193296										
+1226936653				https://images.cria.org.br/viewer/SPF00189652										
+1226936230				https://images.cria.org.br/viewer/SPF00163729										
+1226936190				https://images.cria.org.br/viewer/SPF00160225										
+1226936183				https://images.cria.org.br/viewer/SPF00160224										
+1226936176				https://images.cria.org.br/viewer/SPF00160172										
+1213516318				https://images.cria.org.br/viewer/SPF00197045										
+1213515850				https://images.cria.org.br/viewer/SPF00163895										
+1095257277				https://images.cria.org.br/viewer/CEN00082191										
+1094929528				https://images.cria.org.br/viewer/HUEFS0213322										
+1094868296				https://images.cria.org.br/viewer/HUEFS0151044										
+1094848166				https://images.cria.org.br/viewer/HUEFS0130652										
+1094845594				https://images.cria.org.br/viewer/HUEFS0128100										
+1094836344				https://images.cria.org.br/viewer/HUEFS0118803										
+1094816250				https://images.cria.org.br/viewer/HUEFS0098513										
+1094812147				https://images.cria.org.br/viewer/HUEFS0094265										
+1094812140				https://images.cria.org.br/viewer/HUEFS0094264										
+1094812134				https://images.cria.org.br/viewer/HUEFS0094252										
+1094812129				https://images.cria.org.br/viewer/HUEFS0094261										
+1094812126				https://images.cria.org.br/viewer/HUEFS0094263										
+1094812124				https://images.cria.org.br/viewer/HUEFS0094267										
+1094812122				https://images.cria.org.br/viewer/HUEFS0094253										
+1094812121				https://images.cria.org.br/viewer/HUEFS0094269										
+1094812114				https://images.cria.org.br/viewer/HUEFS0094271										
+1094812109				https://images.cria.org.br/viewer/HUEFS0094270										
+1094812091				https://images.cria.org.br/viewer/HUEFS0094266										
+1094812078				https://images.cria.org.br/viewer/HUEFS0094247										
+1094810809				https://images.cria.org.br/viewer/HUEFS0092937										
+1094802526				https://images.cria.org.br/viewer/HUEFS0084600										
+1094802497				https://images.cria.org.br/viewer/HUEFS0084601										
+1094802484				https://images.cria.org.br/viewer/HUEFS0084599										
+1094793232				https://images.cria.org.br/viewer/HUEFS0075208										
+1094793201				https://images.cria.org.br/viewer/HUEFS0075202										
+1094793200				https://images.cria.org.br/viewer/HUEFS0075203										
+1094793196				https://images.cria.org.br/viewer/HUEFS0075207										
+1094793193				https://images.cria.org.br/viewer/HUEFS0075211										
+1094793189				https://images.cria.org.br/viewer/HUEFS0075209										
+1094793187				https://images.cria.org.br/viewer/HUEFS0075199										
+1094793185				https://images.cria.org.br/viewer/HUEFS0075206										
+1094793182				https://images.cria.org.br/viewer/HUEFS0075205										
+1094793176				https://images.cria.org.br/viewer/HUEFS0075201										
+1094793173				https://images.cria.org.br/viewer/HUEFS0075200										
+1094793171				https://images.cria.org.br/viewer/HUEFS0075204										
+1094793168				https://images.cria.org.br/viewer/HUEFS0075197										
+1094793168				https://images.cria.org.br/viewer/HUEFS0075197_01										
+1094793167				https://images.cria.org.br/viewer/HUEFS0075196										
+1094793163				https://images.cria.org.br/viewer/HUEFS0075210										
+1094789031				https://images.cria.org.br/viewer/HUEFS0071001										
+1094789031				https://images.cria.org.br/viewer/HUEFS0071001_e1										
+1094778355				https://images.cria.org.br/viewer/HUEFS0060286										
+1094778309				https://images.cria.org.br/viewer/HUEFS0060320										
+1090848505				https://images.cria.org.br/viewer/VIC031473										
+1090848485				https://images.cria.org.br/viewer/VIC031474										
+1090820378				https://images.cria.org.br/viewer/HUFU00000033										
+1090147131				https://images.cria.org.br/viewer/HUFSJ006517										
+1087634207				https://images.cria.org.br/viewer/BHCB004736										
+1087632258				https://images.cria.org.br/viewer/BHCB001140										
+1087629547				https://images.cria.org.br/viewer/BHCB053979										
+1087629545				https://images.cria.org.br/viewer/BHCB061388										
+1087629530				https://images.cria.org.br/viewer/BHCB052393										
+1087629513				https://images.cria.org.br/viewer/BHCB054481										
+1087629483				https://images.cria.org.br/viewer/BHCB052376										
+1087629478				https://images.cria.org.br/viewer/BHCB060109										
+1087629468				https://images.cria.org.br/viewer/BHCB062175										
+1087629463				https://images.cria.org.br/viewer/BHCB055004										
+1087629462				https://images.cria.org.br/viewer/BHCB054482										
+1087629439				https://images.cria.org.br/viewer/BHCB053980										
+1087629418				https://images.cria.org.br/viewer/BHCB064922										
+1087629398				https://images.cria.org.br/viewer/BHCB068254										
+1087629385				https://images.cria.org.br/viewer/BHCB065712										
+1087629350				https://images.cria.org.br/viewer/BHCB064921										
+1087629263				https://images.cria.org.br/viewer/BHCB068981										
+1087629259				https://images.cria.org.br/viewer/BHCB054970										
+1087629213				https://images.cria.org.br/viewer/BHCB053382										
+1087629202				https://images.cria.org.br/viewer/BHCB070419										
+1087629196				https://images.cria.org.br/viewer/BHCB052828										
+1087629186				https://images.cria.org.br/viewer/BHCB058711										
+1087629181				https://images.cria.org.br/viewer/BHCB065711										
+1087629172				https://images.cria.org.br/viewer/BHCB053839										
+1087180539				https://images.cria.org.br/viewer/BHZB00002509										
+1087180530				https://images.cria.org.br/viewer/BHZB00000033										
+1086656086				https://images.cria.org.br/viewer/UPCB0011891										

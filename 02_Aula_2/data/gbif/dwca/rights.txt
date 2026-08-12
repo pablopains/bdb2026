@@ -1,0 +1,118 @@
+Dataset: UB herbarium - Universidade de Brasília - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: HRCB - Herbário Rioclarense 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: JPB - Herbário Lauro Pires Xavier 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: ALCB herbarium - Universidade Federal da Bahia - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: UPCB herbarium - Universidade Federal de Paraná - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Botanical Research Institute of Texas, Philecology Herbarium 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: UEC - Herbário da Universidade Estadual de Campinas 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: HUFU - Herbarium Uberlandense 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: BHCB - Herbário da Universidade Federal de Minas Gerais 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: HUFABC - Herbário da UFABC 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: PEUFR - Herbário Professor Vasconcelos Sobrinho 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Herbarium GB, University of Gothenburg 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: BHCB-SL - Herbário UFMG - Samambaias e Licófitas 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: UPCB - Herbário do Departamento de Botânica 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: IBGE herbarium - Herbário IBGE - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: UNOP Herbarium - Universidade Estadual do Oeste do Paraná - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: SORO - Herbário do Centro de Ciências e Tecnologias para a Sustentabilidade 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: MBM - Herbário do Museu Botânico Municipal 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: CEN - Herbário da Embrapa Recursos Genéticos e Biotecnologia 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Tropicos MO Specimen Data 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: CEPEC - Herbário do Centro de Pesquisas do Cacau 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: MBM herbarium - Museu Botânico Municipal - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: BHZB - Herbário do Jardim Botânico da Fundação de Parques Municipais e Zoobotânica 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: RB - Coleção do Herbário do Jardim Botânico do Rio de Janeiro 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Museu Paraense Emilio Goeldi Herbarium 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: UFG - Herbário da Universidade Federal de Goiás 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: FCAB - Herbário Friburguense 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: K herbarium - Royal Botanic Gardens, Kew - Amostras Brasileiras Repatriadas - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: SP - Herbário do Estado "Maria Eneyda P. Kaufmann Fidalgo" - Coleção de Fanerógamas 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: NY herbarium - The New York Botanical Garden - Amostras Brasileiras Repatriadas - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: UB - Herbário da Universidade de Brasília 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: HUEFS - Herbario da Universidade Estadual de Feira de Santana 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: HUFU herbarium - Universidade Federal de Uberlândia - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: HEPH herbarium - Jardim Botânico de Brasília - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Royal Botanic Gardens, Kew - Herbarium Specimens 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: VIES - Herbário Central da Universidade Federal do Espírito Santo 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: CSIC-Real Jardín Botánico-Colección de Plantas Vasculares (MA) 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: SPF herbarium - Universidade de são Paulo - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: NMNH Extant Specimen Records (USNM, US) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: PACA-AGP - Herbarium Anchieta 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: VIES herbarium - Universidade Federal do Espírito Santo - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: VIC - Herbário da Universidade Federal de Viçosa 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: HUFSJ - Herbário da Universidade Federal de São João del-Rei 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: CEN herbarium -  Embrapa Recursos Genéticos e Biotecnologia - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: SPSF - Herbário Dom Bento José Pickel 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Fairchild Tropical Botanic Garden (FTG) 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: SPF - Herbário da Universidade de São Paulo 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: The University and Jepson Herbaria -- Vascular Plants 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Tropicos Specimens Non-MO 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: CESJ - Herbário Leopoldo Krieger 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: ALCB - Herbário Alexandre Leal Costa 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: ASE herbarium - Universidade Federal de Sergipe - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: HSTM herbarium - Universidade Federal do Oeste do Pará - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: University of South Florida Herbarium (USF) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: EAN - Herbário Jayme Coelho de Moraes 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: R herbarium - Museu Nacional - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: The New York Botanical Garden Herbarium (NY) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: HEPH - Herbário Ezechias Paulo Heringer 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: SJRP herbarium - Universidade Estadual Paulista Júlio de Mesquita Filho - Herbário Virtual REFLORA 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
