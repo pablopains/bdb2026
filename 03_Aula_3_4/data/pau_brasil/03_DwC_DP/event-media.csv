@@ -1,0 +1,4 @@
+media_fk,event_fk,subjectCategory,subjectPartLiteral,subjectOrientationLiteral,physicalSetting
+MEDIA-1988-COLETA-FLORES-01,EVT-1988-03-18-COLETA-FLORES,activity,collection procedure,context view,living collection
+MEDIA-2014-COLETA-FRUTOS-01,EVT-2014-05-22-COLETA-FRUTOS,activity,collection procedure,context view,living collection
+MEDIA-2025-GEL-PCR-01,EVT-2025-03-16-PCR,activity,PCR quality control,overview,laboratory

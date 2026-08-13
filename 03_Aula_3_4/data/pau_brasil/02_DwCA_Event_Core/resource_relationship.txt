@@ -1,0 +1,8 @@
+﻿eventID	resourceRelationshipID	resourceID	relatedResourceID	relationshipOfResource	relationshipOfResourceID	relationshipAccordingTo	relationshipEstablishedDate	relationshipRemarks
+EVT-1988-03-18-COLETA-FLORES	RR-1988-FOTO-OCC	MEDIA-1988-FLORES-01	OCC-JBRJ-1988-03-18-FLORES	documents		Aula 3_4 — cenário didático	1988-03-18	Explicita qual ocorrência é documentada pela fotografia de flores.
+EVT-1988-03-18-COLETA-FLORES	RR-1988-EXS-MAT	MEDIA-1988-EXSICATA-FLORES-01	MAT-EXSICATA-1988-FLORES	depicts		Aula 3_4 — cenário didático	2020-10-14	Explicita que a imagem representa a exsicata.
+EVT-1988-03-18-COLETA-FLORES	RR-1988-MAT-LIVE	MAT-EXSICATA-1988-FLORES	MAT-LIVE-JBRJ-001	derived from		Aula 3_4 — cenário didático	1988-03-18	A exsicata foi derivada do exemplar vivo.
+EVT-2014-05-22-COLETA-FRUTOS	RR-2014-FOTO-OCC	MEDIA-2014-FRUTOS-01	OCC-JBRJ-2014-05-22-FRUTOS	documents		Aula 3_4 — cenário didático	2014-05-22	Explicita qual ocorrência é documentada pela fotografia de frutos.
+EVT-2014-05-22-COLETA-FRUTOS	RR-2014-EXS-MAT	MEDIA-2014-EXSICATA-FRUTOS-01	MAT-EXSICATA-2014-FRUTOS	depicts		Aula 3_4 — cenário didático	2020-10-14	Explicita que a imagem representa a exsicata.
+EVT-2014-05-22-COLETA-FRUTOS	RR-2014-MAT-LIVE	MAT-EXSICATA-2014-FRUTOS	MAT-LIVE-JBRJ-001	derived from		Aula 3_4 — cenário didático	2014-05-22	A exsicata foi derivada do exemplar vivo.
+EVT-2022-03-28-COLETA-SILICA	RR-2022-SILICA-LIVE	MAT-SILICA-2022-FOLHAS	MAT-LIVE-JBRJ-001	derived from		Aula 3_4 — cenário didático	2022-03-28	A amostra foliar foi derivada do exemplar vivo.

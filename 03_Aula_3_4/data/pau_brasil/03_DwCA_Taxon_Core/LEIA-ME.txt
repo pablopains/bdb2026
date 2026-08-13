@@ -1,0 +1,13 @@
+DwC-A didático com Taxon Core — caso do pau-brasil
+
+Finalidade: demonstrar uma linha por uso de nome taxonômico, a hierarquia por parentNameUsageID e a sinonímia por acceptedNameUsage e acceptedNameUsageID.
+
+Neste exemplo, acceptedNameUsage registra por extenso o nome aceito e acceptedNameUsageID aponta para o taxonID da linha aceita. scientificName mantém o nome representado por cada linha, com autoria quando conhecida; assim, as linhas de sinônimos não são reescritas como o nome aceito.
+
+Os taxonID iniciados por TAX- são identificadores fictícios e didáticos. A classificação e os nomes foram organizados a partir da Flora e Funga do Brasil, fonte taxonômica adotada na aula. O arquivo não substitui o DwC-A oficial da Flora e Funga do Brasil.
+
+Fonte taxonômica: Flora e Funga do Brasil (constantemente atualizada). Instituto de Pesquisas Jardim Botânico do Rio de Janeiro. Dataset/Checklist. DOI: https://doi.org/10.15468/1mtkaw
+Dataset publicado no IPT: https://ipt.jbrj.gov.br/jbrj/resource?r=lista_especies_flora_brasil
+Norma DwC-A: https://dwc.tdwg.org/text/
+Termos Darwin Core: https://dwc.tdwg.org/terms/
+O arquivo meta_comentado_para_leitura.txt reproduz integralmente o meta.xml. As linhas iniciadas por # são notas didáticas e não pertencem ao XML normativo.

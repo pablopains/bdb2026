@@ -1,0 +1,10 @@
+﻿protocol_pk,protocolID,protocolType,protocolName,protocolDescription,protocolReferences,protocolRemarks
+PROT-HISTORICO-EXEMPLAR,PROT-HISTORICO-EXEMPLAR,data management,Integração retrospectiva no JABOT,Consolidação de documentos históricos e registros digitais posteriores em uma unidade de documentação longitudinal.,https://manual-jabot.jbrj.gov.br/doku.php?id=start,Aplicação didática: o JABOT começou a ser desenvolvido em 2002 e entrou em funcionamento em 2005.
+PROT-PLANTIO-HORTICULTURAL,PROT-PLANTIO-HORTICULTURAL,horticultural management,Plantio horticultural,Implantação do indivíduo na coleção viva em 25/01/1925.,,Exemplo didático; detalhes históricos do procedimento não foram informados.
+PROT-MENSURACAO-CAP-ALTURA,PROT-MENSURACAO-CAP-ALTURA,measurement,Mensuração dendrométrica,"CAP a 1,30 m e estimativa de altura.",,Exemplo fictício.
+PROT-COLETA-BOTANICA,PROT-COLETA-BOTANICA,sampling effort,Coleta botânica manual,Retirada de ramo fértil.,,Exemplo fictício.
+PROT-IDENTIFICACAO-TAXONOMICA,PROT-IDENTIFICACAO-TAXONOMICA,identification,Revisão taxonômica,Comparação morfológica e bibliográfica.,https://doi.org/10.3897/phytokeys.71.9203,Exemplo didático.
+PROT-PRESERVACAO-SILICA,PROT-PRESERVACAO-SILICA,sampling effort,Coleta de tecido foliar,Folhas preservadas em sílica.,,Exemplo fictício.
+PROT-EXTRACAO-DNA,PROT-EXTRACAO-DNA,molecular,Extração de DNA,Extração a partir de tecido foliar preservado.,,Exemplo fictício.
+PROT-PCR,PROT-PCR,molecular,Amplificação por PCR,Amplificação do marcador rbcL.,,Exemplo fictício.
+PROT-SEQUENCIAMENTO,PROT-SEQUENCIAMENTO,molecular,Sequenciamento Sanger,Leitura bidirecional e inspeção do cromatograma.,,Exemplo fictício.

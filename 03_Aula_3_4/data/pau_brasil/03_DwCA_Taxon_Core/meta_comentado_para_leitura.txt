@@ -1,0 +1,54 @@
+# LEITURA DIDÁTICA INTEGRAL DO meta.xml — Taxon Core
+# Todas as linhas sem # reproduzem o arquivo real do pacote.
+# As linhas iniciadas por # são notas da apostila e NÃO pertencem ao XML.
+# Em XML válido, comentários podem ser escritos entre <!-- e -->.
+
+<?xml version="1.0" encoding="UTF-8"?>
+# Elemento raiz do descritor DwC-A.
+<archive xmlns="http://rs.tdwg.org/dwc/text/" metadata="eml.xml">
+  # Core: tabela central; rowType informa o que cada linha representa.
+  <core encoding="UTF-8" linesTerminatedBy="\n" fieldsTerminatedBy="\t" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
+    # Bloco que identifica o arquivo tabular físico.
+    <files><location>taxon.txt</location></files>
+    # Índice da coluna que identifica as linhas do core.
+    <id index="0"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/parentNameUsageID"/>
+    # acceptedNameUsageID aponta para o taxonID da linha que representa o nome aceito neste mesmo Taxon Core.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageID"/>
+    # acceptedNameUsage registra, por extenso, o nome aceito quando a linha representa um sinônimo ou nome não aceito.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsage"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/scientificNameID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/nameAccordingTo"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/nameAccordingToID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/kingdom"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/phylum"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/class"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/order"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="15" term="http://rs.tdwg.org/dwc/terms/family"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="16" term="http://rs.tdwg.org/dwc/terms/genus"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/specificEpithet"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="18" term="http://rs.tdwg.org/dwc/terms/taxonRemarks"/>
+  </core>
+</archive>

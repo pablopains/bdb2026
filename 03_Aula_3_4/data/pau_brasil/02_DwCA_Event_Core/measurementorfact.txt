@@ -1,0 +1,3 @@
+﻿eventID	measurementID	measurementType	measurementValue	measurementUnit	measurementDeterminedDate	measurementRemarks
+EVT-1979-09-04-MEDICAO	MOF-1979-CAP	circunferência à altura do peito	103	cm	1979-09-04	Medição anexada diretamente ao Event Core.
+EVT-1979-09-04-MEDICAO	MOF-1979-ALT	altura total	15	m	1979-09-04	Medição anexada diretamente ao Event Core.

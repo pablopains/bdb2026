@@ -1,0 +1,17 @@
+DwC-DP didático — caso do pau-brasil
+
+Não existe core e a posição física das colunas não cria relações. O datapackage.json descreve os recursos tabulares do DwC-DP, seus campos, primaryKey e foreignKeys.
+
+Use “recurso tabular do DwC-DP” quando estiver falando de uma tabela descrita em resources. Mantenha resources apenas como o nome literal da chave JSON.
+
+Leia o datapackage.json nesta ordem: profile do pacote; lista resources; name e path de cada recurso tabular; schema.fields; primaryKey; foreignKeys; reference.resource e reference.fields.
+
+O histórico contém nove Events científicos, todos ligados ao Event-pai EVT-HIST-JBRJ-001. No cenário didático, essa unidade agregadora foi criada retrospectivamente no JABOT em 2005; a data de informatização é proveniência, enquanto eventDate preserva as datas reais dos acontecimentos.
+
+A preparação das exsicatas não é uma linha separada em event.csv. Prensagem, secagem e montagem aparecem em material.csv[preparations] porque o ramo coletado e a exsicata preparada são tratados como a mesma MaterialEntity. Em contraste, o extrato de DNA e o produto de PCR são unidades físicas distintas, com materialEntityID próprios e derivationEvent_fk.
+
+Exemplo: occurrence-media.csv é um único recurso tabular associativo. A coluna media_fk aponta para media.csv[media_pk] e occurrence_fk aponta para occurrence.csv[occurrence_pk]. O mesmo princípio vale para event-media.csv, material-media.csv, event-agent-role.csv e identification-agent-role.csv.
+
+CAP e altura são afirmações sobre a Occurrence de 1979 e aparecem em occurrence-assertion.csv, projeção do conteúdo tratado como MeasurementOrFact no modelo conceitual e no DwC-A didático.
+
+O arquivo datapackage_comentado_para_leitura.txt reproduz integralmente o datapackage.json. As linhas iniciadas por # são notas didáticas e não pertencem ao JSON normativo.

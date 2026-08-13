@@ -1,0 +1,173 @@
+# LEITURA DIDÁTICA INTEGRAL DO meta.xml — Occurrence Core
+# Todas as linhas sem # reproduzem o arquivo real do pacote.
+# As linhas iniciadas por # são notas da apostila e NÃO pertencem ao XML.
+# Em XML válido, comentários podem ser escritos entre <!-- e -->.
+
+<?xml version="1.0" encoding="UTF-8"?>
+# Elemento raiz do descritor DwC-A.
+<archive xmlns="http://rs.tdwg.org/dwc/text/">
+  # Core: tabela central; rowType informa o que cada linha representa.
+  <core encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+    # Bloco que identifica o arquivo tabular físico.
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>occurrence.txt</location>
+    </files>
+    # Índice da coluna que identifica as linhas do core.
+    <id index="0"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/occurrenceID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/organismID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/eventID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/eventDate"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/eventType"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/samplingProtocol"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/locationID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/locality"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/municipality"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/stateProvince"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/country"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/countryCode"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/decimalLatitude"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/decimalLongitude"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/basisOfRecord"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="15" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="16" term="http://rs.tdwg.org/dwc/terms/reproductiveCondition"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/materialEntityID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="18" term="http://rs.tdwg.org/dwc/terms/institutionCode"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="19" term="http://rs.tdwg.org/dwc/terms/collectionCode"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="20" term="http://rs.tdwg.org/dwc/terms/catalogNumber"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="21" term="http://rs.tdwg.org/dwc/terms/recordedBy"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="22" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="23" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="24" term="http://rs.tdwg.org/dwc/terms/scientificNameID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="25" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="26" term="http://purl.org/dc/terms/references"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="27" term="http://rs.tdwg.org/dwc/terms/occurrenceRemarks"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="28" term="http://rs.tdwg.org/dwc/terms/parentEventID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="29" term="http://rs.tdwg.org/dwc/terms/eventCategory"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="30" term="http://rs.tdwg.org/dwc/terms/recordedByID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="31" term="http://rs.tdwg.org/dwc/terms/fieldNotes"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="32" term="http://rs.tdwg.org/dwc/terms/associatedSequences"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="33" term="http://rs.tdwg.org/dwc/terms/informationWithheld"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="34" term="http://rs.tdwg.org/dwc/terms/dataGeneralizations"/>
+  </core>
+  # Extension: tabela subordinada diretamente ao core.
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Identification">
+    # Bloco que identifica o arquivo tabular físico.
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>identification.txt</location>
+    </files>
+    # Índice da coluna da extensão que repete a chave do core.
+    <coreid index="0"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/identificationID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/identifiedBy"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/dateIdentified"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/scientificNameID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/isAcceptedIdentification"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/identificationType"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/identificationReferences"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/identificationRemarks"/>
+  </extension>
+  # Extension: tabela subordinada diretamente ao core.
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/MeasurementOrFact">
+    # Bloco que identifica o arquivo tabular físico.
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>measurementorfact.txt</location>
+    </files>
+    # Índice da coluna da extensão que repete a chave do core.
+    <coreid index="0"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/measurementID"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/measurementType"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/measurementValue"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/measurementUnit"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/measurementDeterminedDate"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/measurementRemarks"/>
+  </extension>
+  # Extension: tabela subordinada diretamente ao core.
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/ac/terms/Multimedia">
+    # Bloco que identifica o arquivo tabular físico.
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>multimedia.txt</location>
+    </files>
+    # Índice da coluna da extensão que repete a chave do core.
+    <coreid index="0"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="1" term="http://purl.org/dc/terms/identifier"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="2" term="http://purl.org/dc/terms/type"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="3" term="http://purl.org/dc/terms/title"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="4" term="http://purl.org/dc/terms/description"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="5" term="http://purl.org/dc/terms/creator"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="6" term="http://purl.org/dc/terms/created"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="7" term="http://rs.tdwg.org/ac/terms/accessURI"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="8" term="http://purl.org/dc/terms/format"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="9" term="http://purl.org/dc/terms/license"/>
+    # Mapeia uma coluna física, por índice, para um termo.
+    <field index="10" term="http://purl.org/dc/terms/rightsHolder"/>
+  </extension>
+</archive>

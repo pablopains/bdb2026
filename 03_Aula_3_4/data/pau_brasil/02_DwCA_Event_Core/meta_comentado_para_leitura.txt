@@ -1,0 +1,156 @@
+﻿# LEITURA DIDÁTICA INTEGRAL DO meta.xml — Event Core
+# Todas as linhas sem # reproduzem o arquivo real do pacote.
+# As linhas iniciadas por # são notas da apostila e NÃO pertencem ao XML.
+# Em XML válido, comentários podem ser escritos entre <!-- e -->.
+
+<?xml version="1.0" encoding="UTF-8"?>
+# Elemento raiz do descritor DwC-A.
+<archive xmlns="http://rs.tdwg.org/dwc/text/">
+  # Core: tabela central; rowType informa que cada linha representa um Event.
+  <core encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Event">
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>event.txt</location>
+    </files>
+    # Coluna que identifica unicamente as linhas do core.
+    <id index="0"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/eventID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/eventDate"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/eventType"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/samplingProtocol"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/locality"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/countryCode"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/eventRemarks"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/parentEventID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/eventCategory"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/eventReferences"/>
+  </core>
+  # Extension: tabela subordinada diretamente ao Event Core.
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>occurrence.txt</location>
+    </files>
+    # Coluna da extensão que repete a chave do Event Core.
+    <coreid index="0"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/occurrenceID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/organismID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/basisOfRecord"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/reproductiveCondition"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/materialEntityID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/institutionCode"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/collectionCode"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/catalogNumber"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/recordedBy"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/scientificNameID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="15" term="http://rs.tdwg.org/dwc/terms/occurrenceRemarks"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="16" term="http://rs.tdwg.org/dwc/terms/recordedByID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/associatedSequences"/>
+  </extension>
+  # Extension: tabela subordinada diretamente ao Event Core.
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/MeasurementOrFact">
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>measurementorfact.txt</location>
+    </files>
+    # Coluna da extensão que repete a chave do Event Core.
+    <coreid index="0"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/measurementID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/measurementType"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/measurementValue"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/measurementUnit"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/measurementDeterminedDate"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/measurementRemarks"/>
+  </extension>
+  # Extension: tabela subordinada diretamente ao Event Core.
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/ac/terms/Multimedia">
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>multimedia.txt</location>
+    </files>
+    # Coluna da extensão que repete a chave do Event Core.
+    <coreid index="0"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="1" term="http://purl.org/dc/terms/identifier"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="2" term="http://purl.org/dc/terms/type"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="3" term="http://purl.org/dc/terms/title"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="4" term="http://purl.org/dc/terms/description"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="5" term="http://purl.org/dc/terms/creator"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="6" term="http://purl.org/dc/terms/created"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="7" term="http://rs.tdwg.org/ac/terms/accessURI"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="8" term="http://purl.org/dc/terms/format"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="9" term="http://purl.org/dc/terms/license"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="10" term="http://purl.org/dc/terms/rightsHolder"/>
+  </extension>
+  # Extension: tabela subordinada diretamente ao Event Core.
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/ResourceRelationship">
+    <files>
+      # Nome do arquivo tabular descrito neste bloco.
+      <location>resource_relationship.txt</location>
+    </files>
+    # Coluna da extensão que repete a chave do Event Core.
+    <coreid index="0"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/resourceRelationshipID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/resourceID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/relatedResourceID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/relationshipOfResource"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/relationshipOfResourceID"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/relationshipAccordingTo"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/relationshipEstablishedDate"/>
+    # Mapeamento entre a posição física da coluna e o IRI do termo.
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/relationshipRemarks"/>
+  </extension>
+</archive>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" packageId="dwca-taxon-pau-brasil-didatico" system="didatico">
+  <dataset><title>Taxon Core didático do caso do pau-brasil</title><language>por</language><abstract><para>Recorte fictício e didático, fundamentado na Flora e Funga do Brasil, para demonstrar hierarquia taxonômica, nome aceito e sinonímia em um DwC-A com Taxon Core.</para></abstract></dataset>
+</eml:eml>

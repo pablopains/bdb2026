@@ -1,0 +1,5 @@
+identification_pk,identificationID,materialEntity_fk,identificationProtocol_fk,verbatimIdentification,isAcceptedIdentification,dateIdentified,identificationReferences,identificationRemarks
+ID-1988-03-18-EXSICATA-FLORES,ID-1988-03-18-EXSICATA-FLORES,MAT-EXSICATA-1988-FLORES,PROT-IDENTIFICACAO-TAXONOMICA,Caesalpinia echinata Lam.,False,1988-03-18,,Determinação histórica.
+ID-2014-05-22-EXSICATA-FRUTOS,ID-2014-05-22-EXSICATA-FRUTOS,MAT-EXSICATA-2014-FRUTOS,PROT-IDENTIFICACAO-TAXONOMICA,Caesalpinia echinata Lam.,False,2014-05-22,,Determinação histórica.
+ID-2020-10-14-REVISAO-FLORES,ID-2020-10-14-REVISAO-FLORES,MAT-EXSICATA-1988-FLORES,PROT-IDENTIFICACAO-TAXONOMICA,"Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis",True,2020-10-14,https://doi.org/10.3897/phytokeys.71.9203,Revisão aceita.
+ID-2020-10-14-REVISAO-FRUTOS,ID-2020-10-14-REVISAO-FRUTOS,MAT-EXSICATA-2014-FRUTOS,PROT-IDENTIFICACAO-TAXONOMICA,"Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis",True,2020-10-14,https://doi.org/10.3897/phytokeys.71.9203,Revisão aceita.

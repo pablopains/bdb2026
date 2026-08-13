@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive xmlns="http://rs.tdwg.org/dwc/text/">
+  <core encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+    <files>
+      <location>occurrence.txt</location>
+    </files>
+    <id index="0"/>
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/occurrenceID"/>
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/organismID"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/eventID"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/eventDate"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/eventType"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/samplingProtocol"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/locationID"/>
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/locality"/>
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/municipality"/>
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/stateProvince"/>
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/country"/>
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/countryCode"/>
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/decimalLatitude"/>
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/decimalLongitude"/>
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/basisOfRecord"/>
+    <field index="15" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus"/>
+    <field index="16" term="http://rs.tdwg.org/dwc/terms/reproductiveCondition"/>
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/materialEntityID"/>
+    <field index="18" term="http://rs.tdwg.org/dwc/terms/institutionCode"/>
+    <field index="19" term="http://rs.tdwg.org/dwc/terms/collectionCode"/>
+    <field index="20" term="http://rs.tdwg.org/dwc/terms/catalogNumber"/>
+    <field index="21" term="http://rs.tdwg.org/dwc/terms/recordedBy"/>
+    <field index="22" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="23" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    <field index="24" term="http://rs.tdwg.org/dwc/terms/scientificNameID"/>
+    <field index="25" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    <field index="26" term="http://purl.org/dc/terms/references"/>
+    <field index="27" term="http://rs.tdwg.org/dwc/terms/occurrenceRemarks"/>
+    <field index="28" term="http://rs.tdwg.org/dwc/terms/parentEventID"/>
+    <field index="29" term="http://rs.tdwg.org/dwc/terms/eventCategory"/>
+    <field index="30" term="http://rs.tdwg.org/dwc/terms/recordedByID"/>
+    <field index="31" term="http://rs.tdwg.org/dwc/terms/fieldNotes"/>
+    <field index="32" term="http://rs.tdwg.org/dwc/terms/associatedSequences"/>
+    <field index="33" term="http://rs.tdwg.org/dwc/terms/informationWithheld"/>
+    <field index="34" term="http://rs.tdwg.org/dwc/terms/dataGeneralizations"/>
+  </core>
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Identification">
+    <files>
+      <location>identification.txt</location>
+    </files>
+    <coreid index="0"/>
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/identificationID"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/identifiedBy"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/dateIdentified"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/scientificNameID"/>
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/isAcceptedIdentification"/>
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/identificationType"/>
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/identificationReferences"/>
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/identificationRemarks"/>
+  </extension>
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/MeasurementOrFact">
+    <files>
+      <location>measurementorfact.txt</location>
+    </files>
+    <coreid index="0"/>
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/measurementID"/>
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/measurementType"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/measurementValue"/>
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/measurementUnit"/>
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/measurementDeterminedDate"/>
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/measurementRemarks"/>
+  </extension>
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/ac/terms/Multimedia">
+    <files>
+      <location>multimedia.txt</location>
+    </files>
+    <coreid index="0"/>
+    <field index="1" term="http://purl.org/dc/terms/identifier"/>
+    <field index="2" term="http://purl.org/dc/terms/type"/>
+    <field index="3" term="http://purl.org/dc/terms/title"/>
+    <field index="4" term="http://purl.org/dc/terms/description"/>
+    <field index="5" term="http://purl.org/dc/terms/creator"/>
+    <field index="6" term="http://purl.org/dc/terms/created"/>
+    <field index="7" term="http://rs.tdwg.org/ac/terms/accessURI"/>
+    <field index="8" term="http://purl.org/dc/terms/format"/>
+    <field index="9" term="http://purl.org/dc/terms/license"/>
+    <field index="10" term="http://purl.org/dc/terms/rightsHolder"/>
+  </extension>
+</archive>

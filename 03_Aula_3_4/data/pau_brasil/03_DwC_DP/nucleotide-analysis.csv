@@ -1,0 +1,2 @@
+nucleotideAnalysis_pk,nucleotideAnalysisID,event_fk,molecularProtocol_fk,nucleotideSequence_fk,materialEntity_fk,readCount,processedTotalReadCount
+NA-PE-2025-001,NA-PE-2025-001,EVT-2025-03-17-SEQUENCIAMENTO,MP-PE-001,SEQ-PE-2025-001,MAT-PCR-2025-PRODUTO,2,2

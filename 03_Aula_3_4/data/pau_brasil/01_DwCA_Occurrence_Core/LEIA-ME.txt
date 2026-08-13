@@ -1,0 +1,6 @@
+DwC-A didático — Occurrence Core
+
+Unidade central: cada linha de occurrence.txt representa uma dwc:Occurrence.
+O meta.xml declara occurrence.txt como core. Nas extensões, a coluna física 0 é interpretada estruturalmente por <coreid index="0"/> e aponta para o id do core.
+Event, Location, Organism e parte da identificação/taxonomia aparecem achatados nas linhas do Occurrence Core.
+O arquivo meta_comentado_para_leitura.txt reproduz integralmente o meta.xml. As linhas iniciadas por # são notas didáticas e não pertencem ao XML normativo.

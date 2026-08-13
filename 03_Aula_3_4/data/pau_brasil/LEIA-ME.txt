@@ -1,0 +1,13 @@
+Aula 3_4 — um mesmo caso em diferentes organizações Darwin Core
+
+01_DwCA_Occurrence_Core.zip — core = Occurrence; possui meta.xml.
+02_DwCA_Event_Core.zip — core = Event; possui meta.xml.
+03_DwCA_Taxon_Core.zip — core = Taxon; possui meta.xml.
+03_DwC_DP/ — sem core; possui datapackage.json, recursos tabulares e tabelas associativas.
+04_Compartilhamento_DwCA_DwCDP.xlsx — comparação entre as projeções do mesmo conteúdo.
+
+Em cada pasta DwC-A, meta_comentado_para_leitura.txt reproduz integralmente o meta.xml correspondente. Em 03_DwC_DP, datapackage_comentado_para_leitura.txt reproduz integralmente o datapackage.json. As linhas iniciadas por # são notas didáticas para leitura e não pertencem aos descritores normativos.
+
+Os mesmos identificadores foram preservados para comparação. O caso contém nove Events científicos organizados por EVT-HIST-JBRJ-001, um Event-pai de documentação longitudinal considerado, no cenário didático, como criado retrospectivamente no JABOT em 2005. A prensagem, a secagem e a montagem das exsicatas permanecem em preparations da mesma MaterialEntity e não formam um Event separado.
+
+As pastas descompactadas dos DwC-A também foram mantidas para leitura direta. O modelo conceitual 00_modelo.xlsx e este conjunto tabular usam a mesma cronologia, os mesmos locais e a mesma cadeia molecular.

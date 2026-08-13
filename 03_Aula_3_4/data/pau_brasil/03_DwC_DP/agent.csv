@@ -1,0 +1,8 @@
+﻿agent_pk,agentID,agentType,preferredAgentName,agentRemarks
+AGENT-ANTONIO-PACHECO-LEAO,urn:example:agent:antonio-pacheco-leao,Person,Antônio Pacheco Leão,Responsável pelo plantio documentado em 1925; personagem histórico do caso.
+AGENT-HELENA-DUARTE-CAMPOS,urn:example:agent:helena-duarte-campos,Person,Helena Duarte Campos,Botânica fictícia; realizou a mensuração de 1979 e participou da coleta de flores de 1988.
+AGENT-MARCOS-VINICIUS-TAVARES,urn:example:agent:marcos-vinicius-tavares,Person,Marcos Vinícius Tavares,Técnico de herbário fictício; participou da coleta botânica de 1988.
+AGENT-RENATA-ALVES-DE-MOURA,urn:example:agent:renata-alves-de-moura,Person,Renata Alves de Moura,Botânica fictícia; coletou frutos em 2014 e folhas para sílica em 2022.
+AGENT-JULIA-FERNANDES-RIBEIRO,urn:example:agent:julia-fernandes-ribeiro,Person,Júlia Fernandes Ribeiro,Bióloga molecular fictícia; participou da amostragem de 2022 e das análises moleculares de 2025.
+AGENT-HC-LIMA-TAXONOMIA,urn:example:agent:h-c-lima,Person,H. C. Lima,Identificador do cenário didático.
+AGENT-BEATRIZ-COSTA-NOGUEIRA,urn:example:agent:beatriz-costa-nogueira,Person,Beatriz Costa Nogueira,Fotógrafa fictícia responsável pelo registro da coleta de 1988.

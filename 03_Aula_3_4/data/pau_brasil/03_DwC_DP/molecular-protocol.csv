@@ -1,0 +1,2 @@
+molecularProtocol_pk,molecularProtocolID,target_gene,pcr_primers,seq_quality_check,sop
+MP-PE-001,MP-PE-001,rbcL,rbcLa-F | rbcLa-R,manual chromatogram inspection,https://example.org/protocols/rbcl-sanger

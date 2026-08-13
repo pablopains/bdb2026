@@ -1,0 +1,2417 @@
+{
+  "profile": "http://rs.tdwg.org/dwc-dp/1.0/dwc-dp-profile.json",
+  "name": "pau-brasil-dwc-dp-didatico",
+  "title": "Caso didático Paubrasilia echinata — Darwin Core Data Package",
+  "description": "Pacote didático com o histórico do pau-brasil entre 1925 e 2025, organizado em tabelas relacionadas conforme o perfil DwC-DP 1.0.",
+  "version": "1.0",
+  "created": "2026-08-02",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Darwin Core Data Package Quick Reference Guide",
+      "path": "https://gbif.github.io/dwc-dp/qrg/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "agent",
+      "path": "agent.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "agent_pk",
+            "title": "Agent ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular agent.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:agent_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "agentID",
+            "title": "Agent I D",
+            "description": "Campo agentID usado no recurso tabular agent; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentType",
+            "title": "Agent Type",
+            "description": "Campo agentType usado no recurso tabular agent; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentType",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "preferredAgentName",
+            "title": "Preferred Agent Name",
+            "description": "Campo preferredAgentName usado no recurso tabular agent; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/title",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRemarks",
+            "title": "Agent Remarks",
+            "description": "Campo agentRemarks usado no recurso tabular agent; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "agent_pk"
+        ]
+      }
+    },
+    {
+      "name": "event-agent-role",
+      "path": "event-agent-role.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "event_fk",
+            "title": "Event ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:event_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "agent_fk",
+            "title": "Agent ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:agent_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "agentRole",
+            "title": "Agent Role",
+            "description": "Campo agentRole usado no recurso tabular event-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRole",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleIRI",
+            "title": "Agent Role I R I",
+            "description": "Campo agentRoleIRI usado no recurso tabular event-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRoleIRI",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleSource",
+            "title": "Agent Role Source",
+            "description": "Campo agentRoleSource usado no recurso tabular event-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:agentRoleSource",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleOrder",
+            "title": "Agent Role Order",
+            "description": "Campo agentRoleOrder usado no recurso tabular event-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "integer",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRoleOrder",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleDate",
+            "title": "Agent Role Date",
+            "description": "Campo agentRoleDate usado no recurso tabular event-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "date",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRoleDate",
+            "constraints": {
+              "required": false
+            },
+            "format": "default"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "event_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          },
+          {
+            "fields": "agent_fk",
+            "reference": {
+              "resource": "agent",
+              "fields": "agent_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "event-media",
+      "path": "event-media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "media_fk",
+            "title": "Media ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:media_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "event_fk",
+            "title": "Event ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:event_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "subjectCategory",
+            "title": "Subject Category",
+            "description": "Campo subjectCategory usado no recurso tabular event-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectCategory",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "subjectPartLiteral",
+            "title": "Subject Part Literal",
+            "description": "Campo subjectPartLiteral usado no recurso tabular event-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectPartLiteral",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "subjectOrientationLiteral",
+            "title": "Subject Orientation Literal",
+            "description": "Campo subjectOrientationLiteral usado no recurso tabular event-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectOrientationLiteral",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "physicalSetting",
+            "title": "Physical Setting",
+            "description": "Campo physicalSetting usado no recurso tabular event-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/physicalSetting",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "media_fk",
+            "reference": {
+              "resource": "media",
+              "fields": "media_pk"
+            }
+          },
+          {
+            "fields": "event_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "event-protocol",
+      "path": "event-protocol.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "protocol_fk",
+            "title": "Protocol ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:protocol_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "event_fk",
+            "title": "Event ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:event_fk",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "protocol_fk",
+            "reference": {
+              "resource": "protocol",
+              "fields": "protocol_pk"
+            }
+          },
+          {
+            "fields": "event_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "event",
+      "path": "event.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "event_pk",
+            "title": "Event ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular event.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:event_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "eventID",
+            "title": "Event I D",
+            "description": "Campo eventID usado no recurso tabular event; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/eventID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "parentEvent_fk",
+            "title": "Parent Event ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:parentEvent_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "eventDate",
+            "title": "Event Date",
+            "description": "Campo eventDate usado no recurso tabular event; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/eventDate",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "eventCategory",
+            "title": "Event Category",
+            "description": "Campo eventCategory usado no recurso tabular event; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/eventCategory",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "eventType",
+            "title": "Event Type",
+            "description": "Campo eventType usado no recurso tabular event; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/eventType",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "locationID",
+            "title": "Location I D",
+            "description": "Campo locationID usado no recurso tabular event; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/locationID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "locality",
+            "title": "Locality",
+            "description": "The specific description of the place.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/locality",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "municipality",
+            "title": "Municipality",
+            "description": "The full, unabbreviated name of the municipality in which the Location occurs.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/municipality",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "stateProvince",
+            "title": "First Order Division",
+            "description": "The name of the first-order administrative division in which the Location occurs.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/stateProvince",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "country",
+            "title": "Country",
+            "description": "The name of the country or major administrative unit in which the Location occurs.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/country",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "countryCode",
+            "title": "Country Code",
+            "description": "The standard code for the country in which the Location occurs.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/countryCode",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "decimalLatitude",
+            "title": "Decimal Latitude",
+            "description": "The geographic latitude of the geographic center of a Location, in decimal degrees.",
+            "type": "number",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/decimalLatitude",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "decimalLongitude",
+            "title": "Decimal Longitude",
+            "description": "The geographic longitude of the geographic center of a Location, in decimal degrees.",
+            "type": "number",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/decimalLongitude",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "geodeticDatum",
+            "title": "Geodetic Datum",
+            "description": "The ellipsoid, geodetic datum, or spatial reference system upon which the coordinates are based.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/geodeticDatum",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "coordinateUncertaintyInMeters",
+            "title": "Coordinate Uncertainty In Meters",
+            "description": "The horizontal distance from the coordinates describing the smallest circle containing the whole Location.",
+            "type": "number",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "eventProtocol_fk",
+            "title": "Event Protocol ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:eventProtocol_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "provenance_fk",
+            "title": "Provenance ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:provenance_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "eventRemarks",
+            "title": "Event Remarks",
+            "description": "Campo eventRemarks usado no recurso tabular event; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/eventRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "event_pk"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "parentEvent_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          },
+          {
+            "fields": "eventProtocol_fk",
+            "reference": {
+              "resource": "protocol",
+              "fields": "protocol_pk"
+            }
+          },
+          {
+            "fields": "provenance_fk",
+            "reference": {
+              "resource": "provenance",
+              "fields": "provenance_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "identification-agent-role",
+      "path": "identification-agent-role.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "identification_fk",
+            "title": "Identification ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:identification_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "agent_fk",
+            "title": "Agent ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:agent_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "agentRole",
+            "title": "Agent Role",
+            "description": "Campo agentRole usado no recurso tabular identification-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRole",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleIRI",
+            "title": "Agent Role I R I",
+            "description": "Campo agentRoleIRI usado no recurso tabular identification-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRoleIRI",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleSource",
+            "title": "Agent Role Source",
+            "description": "Campo agentRoleSource usado no recurso tabular identification-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:agentRoleSource",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleOrder",
+            "title": "Agent Role Order",
+            "description": "Campo agentRoleOrder usado no recurso tabular identification-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "integer",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRoleOrder",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "agentRoleDate",
+            "title": "Agent Role Date",
+            "description": "Campo agentRoleDate usado no recurso tabular identification-agent-role; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "date",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentRoleDate",
+            "constraints": {
+              "required": false
+            },
+            "format": "default"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "identification_fk",
+            "reference": {
+              "resource": "identification",
+              "fields": "identification_pk"
+            }
+          },
+          {
+            "fields": "agent_fk",
+            "reference": {
+              "resource": "agent",
+              "fields": "agent_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "identification",
+      "path": "identification.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "identification_pk",
+            "title": "Identification ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular identification.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:identification_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "identificationID",
+            "title": "Identification I D",
+            "description": "Campo identificationID usado no recurso tabular identification; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/identificationID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "materialEntity_fk",
+            "title": "Material Entity ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:materialEntity_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "identificationProtocol_fk",
+            "title": "Identification Protocol ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:identificationProtocol_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "verbatimIdentification",
+            "title": "Verbatim Identification",
+            "description": "Campo verbatimIdentification usado no recurso tabular identification; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/verbatimIdentification",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "isAcceptedIdentification",
+            "title": "Is Accepted Identification",
+            "description": "Campo isAcceptedIdentification usado no recurso tabular identification; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "boolean",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/isAcceptedIdentification",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "dateIdentified",
+            "title": "Date Identified",
+            "description": "Campo dateIdentified usado no recurso tabular identification; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/dateIdentified",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "identificationReferences",
+            "title": "Identification References",
+            "description": "Campo identificationReferences usado no recurso tabular identification; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/identificationReferences",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "identificationRemarks",
+            "title": "Identification Remarks",
+            "description": "Campo identificationRemarks usado no recurso tabular identification; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/identificationRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "identification_pk"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "materialEntity_fk",
+            "reference": {
+              "resource": "material",
+              "fields": "materialEntity_pk"
+            }
+          },
+          {
+            "fields": "identificationProtocol_fk",
+            "reference": {
+              "resource": "protocol",
+              "fields": "protocol_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "identification-taxon",
+      "path": "identification-taxon.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "identification_fk",
+            "type": "string"
+          },
+          {
+            "name": "taxonSortOrder",
+            "type": "integer"
+          },
+          {
+            "name": "taxonID",
+            "type": "string"
+          },
+          {
+            "name": "scientificNameID",
+            "type": "string"
+          },
+          {
+            "name": "scientificName",
+            "type": "string"
+          },
+          {
+            "name": "scientificNameAuthorship",
+            "type": "string"
+          },
+          {
+            "name": "vernacularName",
+            "type": "string"
+          },
+          {
+            "name": "taxonRank",
+            "type": "string"
+          },
+          {
+            "name": "externalClassificationSource",
+            "type": "string"
+          },
+          {
+            "name": "kingdom",
+            "type": "string"
+          },
+          {
+            "name": "phylum",
+            "type": "string"
+          },
+          {
+            "name": "class",
+            "type": "string"
+          },
+          {
+            "name": "order",
+            "type": "string"
+          },
+          {
+            "name": "family",
+            "type": "string"
+          },
+          {
+            "name": "subfamily",
+            "type": "string"
+          },
+          {
+            "name": "genus",
+            "type": "string"
+          },
+          {
+            "name": "genericName",
+            "type": "string"
+          },
+          {
+            "name": "subgenus",
+            "type": "string"
+          },
+          {
+            "name": "infragenericEpithet",
+            "type": "string"
+          },
+          {
+            "name": "specificEpithet",
+            "type": "string"
+          },
+          {
+            "name": "infraspecificEpithet",
+            "type": "string"
+          },
+          {
+            "name": "cultivarEpithet",
+            "type": "string"
+          },
+          {
+            "name": "nameAccordingTo",
+            "type": "string"
+          },
+          {
+            "name": "nomenclaturalCode",
+            "type": "string"
+          },
+          {
+            "name": "nomenclaturalStatus",
+            "type": "string"
+          },
+          {
+            "name": "namePublishedIn",
+            "type": "string"
+          },
+          {
+            "name": "namePublishedInYear",
+            "type": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "identification_fk",
+            "reference": {
+              "resource": "identification",
+              "fields": "identification_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "material-media",
+      "path": "material-media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "media_fk",
+            "title": "Media ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:media_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "materialEntity_fk",
+            "title": "Material Entity ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:materialEntity_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "subjectCategory",
+            "title": "Subject Category",
+            "description": "Campo subjectCategory usado no recurso tabular material-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectCategory",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "subjectPartLiteral",
+            "title": "Subject Part Literal",
+            "description": "Campo subjectPartLiteral usado no recurso tabular material-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectPartLiteral",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "subjectOrientationLiteral",
+            "title": "Subject Orientation Literal",
+            "description": "Campo subjectOrientationLiteral usado no recurso tabular material-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectOrientationLiteral",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "physicalSetting",
+            "title": "Physical Setting",
+            "description": "Campo physicalSetting usado no recurso tabular material-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/physicalSetting",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "media_fk",
+            "reference": {
+              "resource": "media",
+              "fields": "media_pk"
+            }
+          },
+          {
+            "fields": "materialEntity_fk",
+            "reference": {
+              "resource": "material",
+              "fields": "materialEntity_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "material",
+      "path": "material.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "materialEntity_pk",
+            "title": "Material Entity ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular material.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:materialEntity_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "materialEntityID",
+            "title": "Material Entity I D",
+            "description": "Campo materialEntityID usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/materialEntityID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "collectionEvent_fk",
+            "title": "Collection Event ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:collectionEvent_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "derivationEvent_fk",
+            "title": "Event de derivação",
+            "description": "Chave estrangeira local para o Event durante o qual a MaterialEntity foi produzida por derivação ou transformação.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "https://example.org/dwc-dp/derivationEvent_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "derivedFromMaterialEntityID",
+            "title": "Derived From Material Entity I D",
+            "description": "Campo derivedFromMaterialEntityID usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/derivedFromMaterialEntityID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "materialEntityCategory",
+            "title": "Material Entity Category",
+            "description": "Campo materialEntityCategory usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/materialEntityCategory",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "materialEntityType",
+            "title": "Material Entity Type",
+            "description": "Campo materialEntityType usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/materialEntityType",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "institutionCode",
+            "title": "Institution Code",
+            "description": "Campo institutionCode usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/institutionCode",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "collectionCode",
+            "title": "Collection Code",
+            "description": "Campo collectionCode usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/collectionCode",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "catalogNumber",
+            "title": "Catalog Number",
+            "description": "Campo catalogNumber usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/catalogNumber",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "preparations",
+            "title": "Preparations",
+            "description": "Campo preparations usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/preparations",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "evidenceForOccurrenceID",
+            "title": "Evidence For Occurrence I D",
+            "description": "Campo evidenceForOccurrenceID usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/evidenceForOccurrenceID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "materialEntityRemarks",
+            "title": "Material Entity Remarks",
+            "description": "Campo materialEntityRemarks usado no recurso tabular material; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/materialEntityRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "materialEntity_pk"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "collectionEvent_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          },
+          {
+            "fields": "derivationEvent_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "media_pk",
+            "title": "Media ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular media.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:media_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "mediaID",
+            "title": "Media I D",
+            "description": "Campo mediaID usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/identifier",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "mediaType",
+            "title": "Media Type",
+            "description": "Campo mediaType usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/type",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "description": "Campo title usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/title",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "description",
+            "title": "Description",
+            "description": "Campo description usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/description",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "creator",
+            "title": "Creator",
+            "description": "Campo creator usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/creator",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "createDate",
+            "title": "Create Date",
+            "description": "Campo createDate usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "date",
+            "namespace": "xmp",
+            "iri": "http://ns.adobe.com/xap/1.0/CreateDate",
+            "constraints": {
+              "required": false
+            },
+            "format": "default"
+          },
+          {
+            "name": "accessURI",
+            "title": "Access U R I",
+            "description": "Campo accessURI usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/accessURI",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "format",
+            "title": "Format",
+            "description": "Campo format usado no recurso tabular media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dc",
+            "iri": "http://purl.org/dc/elements/1.1/format",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "provenance_fk",
+            "title": "Provenance ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:provenance_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "usagePolicy_fk",
+            "title": "Usage Policy ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:usagePolicy_fk",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "media_pk"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "provenance_fk",
+            "reference": {
+              "resource": "provenance",
+              "fields": "provenance_pk"
+            }
+          },
+          {
+            "fields": "usagePolicy_fk",
+            "reference": {
+              "resource": "usage-policy",
+              "fields": "usagePolicy_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "molecular-protocol",
+      "path": "molecular-protocol.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "molecularProtocol_pk",
+            "title": "Molecular Protocol ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular molecular-protocol.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:molecularProtocol_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "molecularProtocolID",
+            "title": "Molecular Protocol I D",
+            "description": "Campo molecularProtocolID usado no recurso tabular molecular-protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/molecularProtocolID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "target_gene",
+            "title": "Target Gene",
+            "description": "Campo target_gene usado no recurso tabular molecular-protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:target_gene",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "pcr_primers",
+            "title": "Pcr Primers",
+            "description": "Campo pcr_primers usado no recurso tabular molecular-protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:pcr_primers",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "seq_quality_check",
+            "title": "Seq Quality Check",
+            "description": "Campo seq_quality_check usado no recurso tabular molecular-protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:seq_quality_check",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "sop",
+            "title": "Sop",
+            "description": "Campo sop usado no recurso tabular molecular-protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:sop",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "molecularProtocol_pk"
+        ]
+      }
+    },
+    {
+      "name": "nucleotide-analysis",
+      "path": "nucleotide-analysis.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "nucleotideAnalysis_pk",
+            "title": "Nucleotide Analysis ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular nucleotide-analysis.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:nucleotideAnalysis_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "nucleotideAnalysisID",
+            "title": "Nucleotide Analysis I D",
+            "description": "Campo nucleotideAnalysisID usado no recurso tabular nucleotide-analysis; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/nucleotideAnalysisID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "event_fk",
+            "title": "Event ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:event_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "molecularProtocol_fk",
+            "title": "Molecular Protocol ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:molecularProtocol_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "nucleotideSequence_fk",
+            "title": "Nucleotide Sequence ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:nucleotideSequence_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "materialEntity_fk",
+            "title": "Material Entity ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:materialEntity_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "readCount",
+            "title": "Read Count",
+            "description": "Campo readCount usado no recurso tabular nucleotide-analysis; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "integer",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:readCount",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "processedTotalReadCount",
+            "title": "Processed Total Read Count",
+            "description": "Campo processedTotalReadCount usado no recurso tabular nucleotide-analysis; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "integer",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:processedTotalReadCount",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "nucleotideAnalysis_pk"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "event_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          },
+          {
+            "fields": "molecularProtocol_fk",
+            "reference": {
+              "resource": "molecular-protocol",
+              "fields": "molecularProtocol_pk"
+            }
+          },
+          {
+            "fields": "nucleotideSequence_fk",
+            "reference": {
+              "resource": "nucleotide-sequence",
+              "fields": "nucleotideSequence_pk"
+            }
+          },
+          {
+            "fields": "materialEntity_fk",
+            "reference": {
+              "resource": "material",
+              "fields": "materialEntity_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "nucleotide-sequence",
+      "path": "nucleotide-sequence.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "nucleotideSequence_pk",
+            "title": "Nucleotide Sequence ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular nucleotide-sequence.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:nucleotideSequence_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "nucleotideSequenceID",
+            "title": "Nucleotide Sequence I D",
+            "description": "Campo nucleotideSequenceID usado no recurso tabular nucleotide-sequence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/nucleotideSequenceID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "sequence",
+            "title": "Sequence",
+            "description": "Campo sequence usado no recurso tabular nucleotide-sequence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/sequence",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "nucleotideSequenceRemarks",
+            "title": "Nucleotide Sequence Remarks",
+            "description": "Campo nucleotideSequenceRemarks usado no recurso tabular nucleotide-sequence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/nucleotideSequenceRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "nucleotideSequence_pk"
+        ]
+      }
+    },
+    {
+      "name": "occurrence-media",
+      "path": "occurrence-media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "media_fk",
+            "title": "Media ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:media_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "occurrence_fk",
+            "title": "Occurrence ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:occurrence_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "subjectCategory",
+            "title": "Subject Category",
+            "description": "Campo subjectCategory usado no recurso tabular occurrence-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectCategory",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "subjectPartLiteral",
+            "title": "Subject Part Literal",
+            "description": "Campo subjectPartLiteral usado no recurso tabular occurrence-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectPartLiteral",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "subjectOrientationLiteral",
+            "title": "Subject Orientation Literal",
+            "description": "Campo subjectOrientationLiteral usado no recurso tabular occurrence-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/subjectOrientationLiteral",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "physicalSetting",
+            "title": "Physical Setting",
+            "description": "Campo physicalSetting usado no recurso tabular occurrence-media; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "ac",
+            "iri": "http://rs.tdwg.org/ac/terms/physicalSetting",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "media_fk",
+            "reference": {
+              "resource": "media",
+              "fields": "media_pk"
+            }
+          },
+          {
+            "fields": "occurrence_fk",
+            "reference": {
+              "resource": "occurrence",
+              "fields": "occurrence_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "occurrence",
+      "path": "occurrence.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "occurrence_pk",
+            "title": "Occurrence ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular occurrence.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:occurrence_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "occurrenceID",
+            "title": "Occurrence I D",
+            "description": "Campo occurrenceID usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/occurrenceID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "event_fk",
+            "title": "Event ( Foreign  Key)",
+            "description": "Chave estrangeira estrutural usada para relacionar esta linha a outro recurso tabular do pacote.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:event_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "organismID",
+            "title": "Organism I D",
+            "description": "Campo organismID usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/organismID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "basisOfRecord",
+            "title": "Basis Of Record",
+            "description": "Campo basisOfRecord usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/basisOfRecord",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "occurrenceStatus",
+            "title": "Occurrence Status",
+            "description": "Campo occurrenceStatus usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/occurrenceStatus",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "reproductiveCondition",
+            "title": "Reproductive Condition",
+            "description": "Campo reproductiveCondition usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/reproductiveCondition",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "scientificName",
+            "title": "Scientific Name",
+            "description": "Campo scientificName usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/scientificName",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "taxonID",
+            "title": "Taxon I D",
+            "description": "Campo taxonID usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/taxonID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "associatedSequences",
+            "title": "Associated Sequences",
+            "description": "Campo associatedSequences usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/associatedSequences",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "informationWithheld",
+            "title": "Information Withheld",
+            "description": "Campo informationWithheld usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/informationWithheld",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "dataGeneralizations",
+            "title": "Data Generalizations",
+            "description": "Campo dataGeneralizations usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/dataGeneralizations",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "occurrenceRemarks",
+            "title": "Occurrence Remarks",
+            "description": "Campo occurrenceRemarks usado no recurso tabular occurrence; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/occurrenceRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "occurrence_pk"
+        ],
+        "foreignKeys": [
+          {
+            "fields": "event_fk",
+            "reference": {
+              "resource": "event",
+              "fields": "event_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "occurrence-assertion",
+      "path": "occurrence-assertion.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "assertionID",
+            "title": "Assertion ID",
+            "description": "Identificador da afirmação.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "occurrence_fk",
+            "title": "Occurrence (Foreign Key)",
+            "description": "Chave estrangeira estrutural para occurrence.csv.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:occurrence_fk",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "assertionType",
+            "title": "Assertion Type",
+            "description": "Termo Darwin Core assertionType usado para descrever a afirmação.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionType",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "assertionValue",
+            "title": "Assertion Value",
+            "description": "Termo Darwin Core assertionValue usado para descrever a afirmação.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionValue",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "assertionUnit",
+            "title": "Assertion Unit",
+            "description": "Termo Darwin Core assertionUnit usado para descrever a afirmação.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionUnit",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "assertionMadeDate",
+            "title": "Assertion Made Date",
+            "description": "Termo Darwin Core assertionMadeDate usado para descrever a afirmação.",
+            "type": "date",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionMadeDate",
+            "constraints": {
+              "required": false
+            },
+            "format": "default"
+          },
+          {
+            "name": "assertionEffectiveDate",
+            "title": "Assertion Effective Date",
+            "description": "Termo Darwin Core assertionEffectiveDate usado para descrever a afirmação.",
+            "type": "date",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionEffectiveDate",
+            "constraints": {
+              "required": false
+            },
+            "format": "default"
+          },
+          {
+            "name": "assertionBy",
+            "title": "Assertion By",
+            "description": "Termo Darwin Core assertionBy usado para descrever a afirmação.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionBy",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "assertionProtocol_fk",
+            "title": "Assertion Protocol (Foreign Key)",
+            "description": "Chave estrangeira estrutural para protocol.csv.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:assertionProtocol_fk",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "assertionRemarks",
+            "title": "Assertion Remarks",
+            "description": "Observações sobre a afirmação.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/assertionRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "occurrence_fk",
+            "reference": {
+              "resource": "occurrence",
+              "fields": "occurrence_pk"
+            }
+          },
+          {
+            "fields": "assertionProtocol_fk",
+            "reference": {
+              "resource": "protocol",
+              "fields": "protocol_pk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "organism",
+      "path": "organism.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "organism_pk",
+            "title": "Organism ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular organism.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:organism_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "organismID",
+            "title": "Organism I D",
+            "description": "Campo organismID usado no recurso tabular organism; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/organismID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "organismScope",
+            "title": "Organism Scope",
+            "description": "Campo organismScope usado no recurso tabular organism; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/organismScope",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "organismName",
+            "title": "Organism Name",
+            "description": "Campo organismName usado no recurso tabular organism; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/organismName",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "organismRemarks",
+            "title": "Organism Remarks",
+            "description": "Campo organismRemarks usado no recurso tabular organism; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/organismRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "organism_pk"
+        ]
+      }
+    },
+    {
+      "name": "protocol",
+      "path": "protocol.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "protocol_pk",
+            "title": "Protocol ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular protocol.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:protocol_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "protocolID",
+            "title": "Protocol I D",
+            "description": "Campo protocolID usado no recurso tabular protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/protocolID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "protocolType",
+            "title": "Protocol Type",
+            "description": "Campo protocolType usado no recurso tabular protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/protocolType",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "protocolName",
+            "title": "Protocol Name",
+            "description": "Campo protocolName usado no recurso tabular protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/protocolName",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "protocolDescription",
+            "title": "Protocol Description",
+            "description": "Campo protocolDescription usado no recurso tabular protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/protocolDescription",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "protocolReferences",
+            "title": "Protocol References",
+            "description": "Campo protocolReferences usado no recurso tabular protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/protocolReferences",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "protocolRemarks",
+            "title": "Protocol Remarks",
+            "description": "Campo protocolRemarks usado no recurso tabular protocol; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/protocolRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "protocol_pk"
+        ]
+      }
+    },
+    {
+      "name": "provenance",
+      "path": "provenance.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "provenance_pk",
+            "title": "Provenance ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular provenance.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:provenance_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "provenanceID",
+            "title": "Provenance I D",
+            "description": "Campo provenanceID usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/provenanceID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "source",
+            "title": "Source",
+            "description": "Campo source usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/source",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "sourceIRI",
+            "title": "Source I R I",
+            "description": "Campo sourceIRI usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:sourceIRI",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "creator",
+            "title": "Creator",
+            "description": "Campo creator usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/creator",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "creatorID",
+            "title": "Creator I D",
+            "description": "Campo creatorID usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dwc",
+            "iri": "http://rs.tdwg.org/dwc/terms/agentID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "providerLiteral",
+            "title": "Provider Literal",
+            "description": "Campo providerLiteral usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:providerLiteral",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "references",
+            "title": "References",
+            "description": "Campo references usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/references",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "bibliographicCitation",
+            "title": "Bibliographic Citation",
+            "description": "Campo bibliographicCitation usado no recurso tabular provenance; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/bibliographicCitation",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "provenance_pk"
+        ]
+      }
+    },
+    {
+      "name": "usage-policy",
+      "path": "usage-policy.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "usagePolicy_pk",
+            "title": "Usage Policy ( Primary  Key)",
+            "description": "Chave primária estrutural que identifica de forma única uma linha do recurso tabular usage-policy.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:usagePolicy_pk",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "usagePolicyID",
+            "title": "Usage Policy I D",
+            "description": "Campo usagePolicyID usado no recurso tabular usage-policy; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:usagePolicyID",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "license",
+            "title": "License",
+            "description": "Campo license usado no recurso tabular usage-policy; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/license",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "rightsHolder",
+            "title": "Rights Holder",
+            "description": "Campo rightsHolder usado no recurso tabular usage-policy; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "dcterms",
+            "iri": "http://purl.org/dc/terms/rightsHolder",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "attribution",
+            "title": "Attribution",
+            "description": "Campo attribution usado no recurso tabular usage-policy; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:attribution",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "usagePolicyRemarks",
+            "title": "Usage Policy Remarks",
+            "description": "Campo usagePolicyRemarks usado no recurso tabular usage-policy; sua semântica é indicada pelo namespace e pela IRI declarados.",
+            "type": "string",
+            "namespace": "local",
+            "iri": "urn:example:dwc-dp:field:usagePolicyRemarks",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": [
+          "usagePolicy_pk"
+        ]
+      }
+    }
+  ]
+}

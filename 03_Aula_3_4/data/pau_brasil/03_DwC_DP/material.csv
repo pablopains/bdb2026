@@ -1,0 +1,7 @@
+materialEntity_pk,materialEntityID,collectionEvent_fk,derivationEvent_fk,derivedFromMaterialEntityID,materialEntityCategory,materialEntityType,institutionCode,collectionCode,catalogNumber,preparations,evidenceForOccurrenceID,materialEntityRemarks
+MAT-LIVE-JBRJ-001,MAT-LIVE-JBRJ-001,,,,living,living specimen,JBRJ,JBRJ-VIVA,JBRJ-001,maintained alive,OCC-JBRJ-1979-09-04-MEDICAO,Indivíduo vivo.
+MAT-EXSICATA-1988-FLORES,MAT-EXSICATA-1988-FLORES,EVT-1988-03-18-COLETA-FLORES,,MAT-LIVE-JBRJ-001,preserved,herbarium sheet,JBRJ,RB,RB-FL-001,pressed | dried | mounted,OCC-JBRJ-1988-03-18-FLORES,Exsicata com flores.
+MAT-EXSICATA-2014-FRUTOS,MAT-EXSICATA-2014-FRUTOS,EVT-2014-05-22-COLETA-FRUTOS,,MAT-LIVE-JBRJ-001,preserved,herbarium sheet,JBRJ,RB,RB-FR-001,pressed | dried | mounted,OCC-JBRJ-2014-05-22-FRUTOS,Exsicata com frutos.
+MAT-SILICA-2022-FOLHAS,MAT-SILICA-2022-FOLHAS,EVT-2022-03-28-COLETA-SILICA,,MAT-LIVE-JBRJ-001,tissue,leaf tissue,JBRJ,JBRJ-DNA,JBRJ-DNA-001,dried in silica gel,OCC-JBRJ-2022-03-28-FOLHAS-SILICA,Folhas em sílica.
+MAT-DNA-2025-EXTRATO,MAT-DNA-2025-EXTRATO,,EVT-2025-03-15-EXTRACAO-DNA,MAT-SILICA-2022-FOLHAS,DNA extract,genomic DNA extract,JBRJ,JBRJ-DNA,JBRJ-DNA-EX-001,DNA extraction,OCC-JBRJ-2022-03-28-FOLHAS-SILICA,Extrato de DNA.
+MAT-PCR-2025-PRODUTO,MAT-PCR-2025-PRODUTO,,EVT-2025-03-16-PCR,MAT-DNA-2025-EXTRATO,DNA extract,PCR product,JBRJ,JBRJ-DNA,JBRJ-PCR-001,PCR product,OCC-JBRJ-2022-03-28-FOLHAS-SILICA,Amplicon do marcador rbcL.

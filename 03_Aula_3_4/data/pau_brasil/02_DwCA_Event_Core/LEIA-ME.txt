@@ -1,0 +1,10 @@
+﻿DwC-A didático — Event Core
+
+Unidade central: cada linha de event.txt representa um dwc:Event. O core contém o Event-pai e os nove Events científicos do caso. Events como revisão taxonômica, extração de DNA, PCR e sequenciamento podem permanecer no core mesmo sem linhas correspondentes na Occurrence Extension.
+
+No cenário didático, EVT-HIST-JBRJ-001 é a unidade de documentação longitudinal criada retrospectivamente no JABOT em 2005. Seu intervalo temporal cobre os acontecimentos documentados; a data de informatização é proveniência.
+
+O meta.xml declara event.txt como core. Em occurrence.txt, a coluna física 0 é <coreid> e aponta para o evento; occurrenceID continua sendo o identificador semântico da própria ocorrência. recordedBy e recordedByID aparecem em occurrence.txt, não em event.txt.
+
+A escolha do Event Core evidencia que um evento pode reunir várias ocorrências ou não possuir nenhuma ocorrência associada, mas o pacote continua tendo uma estrutura em estrela.
+O arquivo meta_comentado_para_leitura.txt reproduz integralmente o meta.xml. As linhas iniciadas por # são notas didáticas e não pertencem ao XML normativo.

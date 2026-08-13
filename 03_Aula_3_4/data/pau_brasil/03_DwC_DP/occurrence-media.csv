@@ -1,0 +1,3 @@
+media_fk,occurrence_fk,subjectCategory,subjectPartLiteral,subjectOrientationLiteral,physicalSetting
+MEDIA-1988-FLORES-01,OCC-JBRJ-1988-03-18-FLORES,organism,flower,close-up,living collection
+MEDIA-2014-FRUTOS-01,OCC-JBRJ-2014-05-22-FRUTOS,organism,fruits,close-up,living collection
